@@ -24,7 +24,7 @@ require_once($CFG->libdir . '/formslib.php');
 /**
  * The platform_registration_form class, for registering a platform as a consumer of a published tool.
  *
- * @package    enrol_lticoursetemplate
+ * @package    enrol_lti
  * @copyright  2021 Jake Dallimore <jrhdallimore@gmail.com>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
@@ -42,39 +42,39 @@ class platform_registration_form extends \moodleform {
         $mform->setType('id', PARAM_INT);
 
         // Name.
-        $mform->addElement('text', 'name', get_string('registerplatform:name', 'enrol_lticoursetemplate'));
+        $mform->addElement('text', 'name', get_string('registerplatform:name', 'enrol_lti'));
         $mform->setType('name', PARAM_TEXT);
         $mform->addRule('name', $strrequired, 'required', null, 'client');
 
         // Platform Id.
-        $mform->addElement('text', 'platformid', get_string('registerplatform:platformid', 'enrol_lticoursetemplate'));
+        $mform->addElement('text', 'platformid', get_string('registerplatform:platformid', 'enrol_lti'));
         $mform->setType('platformid', PARAM_URL);
         $mform->addRule('platformid', $strrequired, 'required', null, 'client');
-        $mform->addHelpButton('platformid', 'registerplatform:platformid', 'enrol_lticoursetemplate');
+        $mform->addHelpButton('platformid', 'registerplatform:platformid', 'enrol_lti');
 
         // Client Id.
-        $mform->addElement('text', 'clientid', get_string('registerplatform:clientid', 'enrol_lticoursetemplate'));
+        $mform->addElement('text', 'clientid', get_string('registerplatform:clientid', 'enrol_lti'));
         $mform->setType('clientid', PARAM_TEXT);
         $mform->addRule('clientid', $strrequired, 'required', null, 'client');
-        $mform->addHelpButton('clientid', 'registerplatform:clientid', 'enrol_lticoursetemplate');
+        $mform->addHelpButton('clientid', 'registerplatform:clientid', 'enrol_lti');
 
         // Authentication request URL.
-        $mform->addElement('text', 'authenticationrequesturl', get_string('registerplatform:authrequesturl', 'enrol_lticoursetemplate'));
+        $mform->addElement('text', 'authenticationrequesturl', get_string('registerplatform:authrequesturl', 'enrol_lti'));
         $mform->setType('authenticationrequesturl', PARAM_URL);
         $mform->addRule('authenticationrequesturl', $strrequired, 'required', null, 'client');
-        $mform->addHelpButton('authenticationrequesturl', 'registerplatform:authrequesturl', 'enrol_lticoursetemplate');
+        $mform->addHelpButton('authenticationrequesturl', 'registerplatform:authrequesturl', 'enrol_lti');
 
         // JSON Web Key Set URL.
-        $mform->addElement('text', 'jwksurl', get_string('registerplatform:jwksurl', 'enrol_lticoursetemplate'));
+        $mform->addElement('text', 'jwksurl', get_string('registerplatform:jwksurl', 'enrol_lti'));
         $mform->setType('jwksurl', PARAM_URL);
         $mform->addRule('jwksurl', $strrequired, 'required', null, 'client');
-        $mform->addHelpButton('jwksurl', 'registerplatform:jwksurl', 'enrol_lticoursetemplate');
+        $mform->addHelpButton('jwksurl', 'registerplatform:jwksurl', 'enrol_lti');
 
         // Access token URL.
-        $mform->addElement('text', 'accesstokenurl', get_string('registerplatform:accesstokenurl', 'enrol_lticoursetemplate'));
+        $mform->addElement('text', 'accesstokenurl', get_string('registerplatform:accesstokenurl', 'enrol_lti'));
         $mform->setType('accesstokenurl', PARAM_URL);
         $mform->addRule('accesstokenurl', $strrequired, 'required', null, 'client');
-        $mform->addHelpButton('accesstokenurl', 'registerplatform:accesstokenurl', 'enrol_lticoursetemplate');
+        $mform->addHelpButton('accesstokenurl', 'registerplatform:accesstokenurl', 'enrol_lti');
 
         $buttonarray = [];
         $buttonarray[] = $mform->createElement('submit', 'submitbutton', get_string('savechanges'));
@@ -96,7 +96,7 @@ class platform_registration_form extends \moodleform {
         foreach ($data as $key => $val) {
             if (isset($this->_form->_types[$key]) && $this->_form->_types[$key] == 'url') {
                 if (!filter_var($val, FILTER_VALIDATE_URL)) {
-                    $errors[$key] = get_string('registerplatform:invalidurlerror', 'enrol_lticoursetemplate');
+                    $errors[$key] = get_string('registerplatform:invalidurlerror', 'enrol_lti');
                 }
             }
         }
@@ -106,7 +106,7 @@ class platform_registration_form extends \moodleform {
         $appreg = $appregistrationrepo->find_by_platform($data['platformid'], $data['clientid']);
         if ($appreg) {
             if (empty($data['id']) || $appreg->get_id() != $data['id']) {
-                $errors['clientid'] = get_string('registerplatform:duplicateregistrationerror', 'enrol_lticoursetemplate');
+                $errors['clientid'] = get_string('registerplatform:duplicateregistrationerror', 'enrol_lti');
             }
         }
 

@@ -25,7 +25,7 @@ use enrol_lticoursetemplate\local\ltiadvantage\repository\legacy_consumer_reposi
  *
  * See https://www.imsglobal.org/spec/lti/v1p3/migr#lti-1-1-migration-claim
  *
- * @package enrol_lticoursetemplate
+ * @package enrol_lti
  * @copyright 2021 Jake Dallimore <jrhdallimore@gmail.com>
  * @license http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
@@ -127,7 +127,7 @@ class migration_claim {
         ];
         $basestring = implode('&', $base);
 
-        // Legacy enrol_lticoursetemplate code permits tools to share a consumer key but use different secrets. This results in
+        // Legacy enrol_lti code permits tools to share a consumer key but use different secrets. This results in
         // potentially many secrets per mapped tool consumer. As such, when generating the migration claim it's
         // impossible to know which secret the platform will use to sign the consumer key. The consumer key in the
         // migration claim is thus verified by trying all known secrets for the consumer, until either a match is found

@@ -30,7 +30,7 @@ namespace enrol_lticoursetemplate\local\ltiadvantage\entity;
  * sync, that param is nullable. This can be achieved via the factory method user::create_from_resource_link() or set
  * after instantiation via the user::set_resource_link_id() method.
  *
- * @package    enrol_lticoursetemplate
+ * @package    enrol_lti
  * @copyright  2021 Jake Dallimore <jrhdallimore@gmail.com>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later */
 class user {

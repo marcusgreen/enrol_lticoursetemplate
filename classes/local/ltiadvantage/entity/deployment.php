@@ -21,7 +21,7 @@ namespace enrol_lticoursetemplate\local\ltiadvantage\entity;
  *
  * This class represents an LTI Advantage Tool Deployment (http://www.imsglobal.org/spec/lti/v1p3/#tool-deployment).
  *
- * @package enrol_lticoursetemplate
+ * @package enrol_lti
  * @copyright 2021 Jake Dallimore <jrhdallimore@gmail.com>
  * @license http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */

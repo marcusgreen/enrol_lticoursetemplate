@@ -22,7 +22,7 @@ namespace enrol_lticoursetemplate\local\ltiadvantage\viewobject;
  * This class performs no validation and is only meant to be used as a slice of the existing data for use in the
  * content selection flow.
  *
- * @package    enrol_lticoursetemplate
+ * @package    enrol_lti
  * @copyright  2021 Jake Dallimore <jrhdallimore@gmail.com>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
@@ -39,7 +39,7 @@ class published_resource {
     /** @var int the context id of the resource */
     private $contextid;
 
-    /** @var int id of the enrol_ct_tools instance (i.e. the id of the 'published resource'). */
+    /** @var int id of the enrol_lti_tools instance (i.e. the id of the 'published resource'). */
     private $id;
 
     /** @var string a v4 uuid identifier for this published resource. */
@@ -61,7 +61,7 @@ class published_resource {
      * @param string $coursefullname full name of the course to which this published resource belongs.
      * @param int $courseid id of the course to which this published resource belongs.
      * @param int $contextid id of the context.
-     * @param int $id id of the enrol_ct_tools instance (i.e. the id of the 'published resource').
+     * @param int $id id of the enrol_lti_tools instance (i.e. the id of the 'published resource').
      * @param string $uuid a v4 uuid identifier for this published resource.
      * @param bool $supportsgrades whether or not this resource supports grades.
      * @param float|null $grademax the max grade or null if this is not a graded resource.

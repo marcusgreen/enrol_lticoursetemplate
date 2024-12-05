@@ -24,7 +24,7 @@ require_once($CFG->libdir . '/formslib.php');
 /**
  * The deployment_form class, for registering a deployment for a registered platform.
  *
- * @package    enrol_lticoursetemplate
+ * @package    enrol_lti
  * @copyright  2021 Jake Dallimore <jrhdallimore@gmail.com>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
@@ -42,18 +42,18 @@ class deployment_form extends \moodleform {
         $mform->setType('registrationid', PARAM_INT);
 
         // Name.
-        $mform->addElement('text', 'name', get_string('adddeployment:name', 'enrol_lticoursetemplate'));
+        $mform->addElement('text', 'name', get_string('adddeployment:name', 'enrol_lti'));
         $mform->setType('name', PARAM_TEXT);
         $mform->addRule('name', $strrequired, 'required', null, 'client');
         $mform->addRule('name', get_string('maximumchars', '', 255), 'maxlength', 255, 'client');
 
         // Deployment Id.
-        $mform->addElement('text', 'deploymentid', get_string('adddeployment:deploymentid', 'enrol_lticoursetemplate'));
+        $mform->addElement('text', 'deploymentid', get_string('adddeployment:deploymentid', 'enrol_lti'));
         $mform->setType('deploymentid', PARAM_TEXT);
         $mform->addRule('deploymentid', $strrequired, 'required', null, 'client');
         $mform->addRule('deploymentid', get_string('maximumchars', '', 255), 'maxlength', 255, 'client');
 
-        $mform->addHelpButton('deploymentid', 'adddeployment:deploymentid', 'enrol_lticoursetemplate');
+        $mform->addHelpButton('deploymentid', 'adddeployment:deploymentid', 'enrol_lti');
 
         $buttonarray = [];
         $buttonarray[] = $mform->createElement('submit', 'submitbutton', get_string('savechanges'));
@@ -74,7 +74,7 @@ class deployment_form extends \moodleform {
         // Validate the uniqueness of the deploymentid within the registration.
         $deploymentrepo = new deployment_repository();
         if ($deploymentrepo->find_by_registration($data['registrationid'], $data['deploymentid'])) {
-            $errors['deploymentid'] = get_string('adddeployment:invaliddeploymentiderror', 'enrol_lticoursetemplate');
+            $errors['deploymentid'] = get_string('adddeployment:invaliddeploymentiderror', 'enrol_lti');
         }
 
         return $errors;

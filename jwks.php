@@ -17,7 +17,7 @@
 /**
  * This file returns an array of available public keys for the LTI 1.3 tool.
  *
- * @package    enrol_lticoursetemplate
+ * @package    enrol_lti
  * @copyright  2021 Jake Dallimore <jrhdallimore@gmail.com>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
@@ -34,4 +34,4 @@ $key = get_config('enrol_lticoursetemplate', 'lti_13_kid');
 $keyendpoint = JwksEndpoint::new([$key => $privatekey]);
 
 @header('Content-Type: application/json; charset=utf-8');
-$keyendpoint->outputJwks();
+echo json_encode($keyendpoint->getPublicJwks());

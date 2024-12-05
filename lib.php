@@ -632,6 +632,7 @@ class enrol_lticoursetemplate_plugin extends enrol_plugin {
             }
         }
 
+        // Note https://tracker.moodle.org/browse/MDL-79859
         $rc->execute_plan();
         $rc->destroy();
 

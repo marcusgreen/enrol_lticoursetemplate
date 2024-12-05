@@ -309,7 +309,7 @@ class tool_launch_service {
      * @throws \moodle_exception if launch problems are encountered.
      */
     public function user_launches_tool(\stdClass $user, LtiMessageLaunch $launch): array {
-
+        xdebug_break();
         $launchdata = $this->get_launch_data($launch);
 
         if (!$registration = $this->registrationrepo->find_by_platform($launchdata->platform, $launchdata->clientid)) {
@@ -330,11 +330,11 @@ class tool_launch_service {
 
         // Tool (course) that is getting used as a template
         $oldresource = array_values(helper::get_lti_tools(['uuid' => $resourceuuid]));
-
         // Get the new resource, copy course
+
         $resource = helper::get_lti_new_tool(
             $oldresource[0]->id,
-            $launchdata->custom['platform'],
+            $launchdata->platform,
             $launchdata->context['id'],
             $launchdata->context['title'],
             $this->user_is_staff($launchdata, true) || $this->user_is_admin($launchdata)

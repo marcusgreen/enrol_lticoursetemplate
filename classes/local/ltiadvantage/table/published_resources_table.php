@@ -27,7 +27,7 @@ require_once($CFG->libdir . '/tablelib.php');
 /**
  * Class which displays a list of resources published over LTI Advantage.
  *
- * @package enrol_lticoursetemplate
+ * @package enrol_lti
  * @copyright  2021 Jake Dallimore <jrhdallimore@gmail.com>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
@@ -59,7 +59,7 @@ class published_resources_table extends \table_sql {
      * @param string $courseid The id of the course.
      */
     public function __construct($courseid) {
-        parent::__construct('enrol_ct_manage_table');
+        parent::__construct('enrol_lti_manage_table');
 
         $this->define_columns(array(
             'name',
@@ -68,20 +68,20 @@ class published_resources_table extends \table_sql {
         ));
         $this->define_headers(array(
             get_string('name'),
-            get_string('lti13launchdetails', 'enrol_lticoursetemplate'),
+            get_string('lti13launchdetails', 'enrol_lti'),
             get_string('edit')
         ));
         $this->collapsible(false);
         $this->sortable(false);
 
         // Set the variables we need access to.
-        $this->ltiplugin = enrol_get_plugin('lticoursetemplate');
-        $this->ltienabled = enrol_is_enabled('lticoursetemplate');
+        $this->ltiplugin = enrol_get_plugin('lti');
+        $this->ltienabled = enrol_is_enabled('lti');
         $this->canconfig = has_capability('moodle/course:enrolconfig', \context_course::instance($courseid));
         $this->courseid = $courseid;
 
         // Set help icons.
-        $launchicon = new \help_icon('lti13launchdetails', 'enrol_lticoursetemplate');
+        $launchicon = new \help_icon('lti13launchdetails', 'enrol_lti');
         $this->define_help_for_headers(['1' => $launchicon]);
     }
 
@@ -92,7 +92,8 @@ class published_resources_table extends \table_sql {
      * @return string
      */
     public function col_name($tool) {
-        $name = helper::get_name($tool);
+        $toolcontext = \context::instance_by_id($tool->contextid, IGNORE_MISSING);
+        $name = $toolcontext ? helper::get_name($tool) : $this->get_deleted_activity_name_html($tool);
 
         return $this->get_display_text($tool, $name);
     }
@@ -106,10 +107,10 @@ class published_resources_table extends \table_sql {
     public function col_launch($tool) {
         global $OUTPUT;
 
-        $customparamslabel = get_string('customproperties', 'enrol_lticoursetemplate');
+        $customparamslabel = get_string('customproperties', 'enrol_lti');
         $customparams = "id={$tool->uuid}";
         $launchurl = new \moodle_url('/enrol/lticoursetemplate/launch.php');
-        $launchurllabel = get_string('launchurl', 'enrol_lticoursetemplate');
+        $launchurllabel = get_string('launchurl', 'enrol_lti');
 
         $data = [
                 "rows" => [
@@ -128,7 +129,7 @@ class published_resources_table extends \table_sql {
                 ]
             ];
 
-        $return = $OUTPUT->render_from_template("enrol_lticoursetemplate/copy_grid", $data);
+        $return = $OUTPUT->render_from_template("enrol_lti/copy_grid", $data);
 
         return $return;
     }
@@ -215,9 +216,39 @@ class published_resources_table extends \table_sql {
      */
     protected function get_display_text($tool, $text) {
         if ($tool->status != ENROL_INSTANCE_ENABLED) {
-            return \html_writer::tag('span', $text, array('class' => 'dimmed_text'));
+            return \html_writer::tag('div', $text, array('class' => 'dimmed_text'));
         }
 
         return $text;
+    }
+
+    /**
+     * Get a warning icon, with tooltip, describing enrolment instances sharing activities which have been deleted.
+     *
+     * @param \stdClass $tool the tool instance record.
+     * @return string the HTML for the name column.
+     */
+    protected function get_deleted_activity_name_html(\stdClass $tool): string {
+        global $OUTPUT;
+        $icon = \html_writer::tag(
+            'a',
+            $OUTPUT->pix_icon('enrolinstancewarning', get_string('deletedactivityalt' , 'enrol_lti'), 'enrol_lti'), [
+                "class" => "btn btn-link p-0",
+                "role" => "button",
+                "data-container" => "body",
+                "data-toggle" => "popover",
+                "data-placement" => right_to_left() ? "left" : "right",
+                "data-content" => get_string('deletedactivitydescription', 'enrol_lti'),
+                "data-html" => "true",
+                "tabindex" => "0",
+                "data-trigger" => "focus"
+            ]
+        );
+        $name = \html_writer::span($icon . get_string('deletedactivity', 'enrol_lti'));
+        if ($tool->name) {
+            $name .= \html_writer::empty_tag('br') . \html_writer::empty_tag('br') . $tool->name;
+        }
+
+        return $name;
     }
 }

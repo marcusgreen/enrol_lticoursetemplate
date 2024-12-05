@@ -23,7 +23,7 @@ namespace enrol_lticoursetemplate\local\ltiadvantage\entity;
  * Each registered application may contain one or more deployments of the Moodle tool.
  * This registration provides the security contract for all tool deployments belonging to the registration.
  *
- * @package enrol_lticoursetemplate
+ * @package enrol_lti
  * @copyright 2021 Jake Dallimore <jrhdallimore@gmail.com>
  * @license http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */

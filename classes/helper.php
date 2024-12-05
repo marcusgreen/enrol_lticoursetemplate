@@ -251,12 +251,12 @@ class helper {
                     return self::ENROLMENT_MAX_ENROLLED;
                 }
             }
-            
+
             // Check if the enrolment has not started.
             if ($tool->enrolstartdate && time() < $tool->enrolstartdate) {
                 return self::ENROLMENT_NOT_STARTED;
             }
-            
+
             // Check if the enrolment has finished.
             if ($tool->enrolenddate && time() > $tool->enrolenddate) {
                 return self::ENROLMENT_FINISHED;
@@ -309,7 +309,7 @@ class helper {
      * @param string $label - course short name (label)
      * @param string $title - course full name (title)
      * @param bool $isinstructor - a flag for a user role
-     * 
+     *
      * @return \stdClass the tool
      */
     public static function get_lti_new_tool(
@@ -322,7 +322,6 @@ class helper {
         global $DB, $CFG;
         require_once($CFG->dirroot . "/lib/accesslib.php");
         require_once($CFG->dirroot . "/lib/setuplib.php");
-
         // Platform key is required.
         if (!isset($platform)) {
             throw new \moodle_exception('invalidplatform', 'enrol_lticoursetemplate');
@@ -368,8 +367,8 @@ class helper {
 
             // Add new instance of enrol plugin.
             $instanceid = $plugin->add_instance($course,[
-                'contextid' => $context->id, 
-                'roleinstructor' => $oldtool->roleinstructor, 
+                'contextid' => $context->id,
+                'roleinstructor' => $oldtool->roleinstructor,
                 'rolelearner' => $oldtool->rolelearner,
                 'provisioningmodelearner' => $oldtool->provisioningmodelearner,
                 'provisioningmodeinstructor' => $oldtool->provisioningmodeinstructor,

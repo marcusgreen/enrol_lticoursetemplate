@@ -23,7 +23,7 @@ require_once($CFG->libdir . '/formslib.php');
 /**
  * The create_registration_form class, for creating a new pending platform registration.
  *
- * @package    enrol_lticoursetemplate
+ * @package    enrol_lti
  * @copyright  2022 Jake Dallimore <jrhdallimore@gmail.com>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
@@ -36,10 +36,10 @@ class create_registration_form extends \moodleform {
         $mform = $this->_form;
 
         // Name.
-        $mform->addElement('text', 'name', get_string('registerplatform:name', 'enrol_lticoursetemplate'));
+        $mform->addElement('text', 'name', get_string('registerplatform:name', 'enrol_lti'));
         $mform->setType('name', PARAM_TEXT);
         $mform->addRule('name', get_string('required'), 'required', null, 'client');
-        $mform->addHelpButton('name', 'registerplatform:name', 'enrol_lticoursetemplate');
+        $mform->addHelpButton('name', 'registerplatform:name', 'enrol_lti');
 
         // Continue/cancel buttons.
         $this->add_action_buttons(true, get_string('continue'));

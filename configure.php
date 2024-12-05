@@ -22,17 +22,24 @@
  * @license     http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
-use enrol_lticoursetemplate\local\ltiadvantage\lib\http_client;
+//use enrol_lticoursetemplate\local\ltiadvantage\lib\http_client;
+use core\http_client;
 use enrol_lticoursetemplate\local\ltiadvantage\lib\launch_cache_session;
 use enrol_lticoursetemplate\local\ltiadvantage\lib\issuer_database;
 use enrol_lticoursetemplate\local\ltiadvantage\repository\application_registration_repository;
 use enrol_lticoursetemplate\local\ltiadvantage\repository\deployment_repository;
 use enrol_lticoursetemplate\local\ltiadvantage\repository\published_resource_repository;
-use Packback\Lti1p3\ImsStorage\ImsCookie;
+//use Packback\Lti1p3\ImsStorage\lti_cookie;
+use Packback\Lti1p3\DeepLinkResources\Resource;
+use Packback\Lti1p3\LtiConstants;
+
 use Packback\Lti1p3\LtiDeepLinkResource;
 use Packback\Lti1p3\LtiLineitem;
 use Packback\Lti1p3\LtiMessageLaunch;
 use Packback\Lti1p3\LtiServiceConnector;
+
+use auth_lti\local\ltiadvantage\utility\cookie_helper;
+use enrol_lti\local\ltiadvantage\lib\lti_cookie;
 
 require(__DIR__.'/../../config.php');
 require_once(__DIR__.'/lib.php');
@@ -47,14 +54,16 @@ $grades = optional_param_array('grades', [], PARAM_INT);
 
 $sesscache = new launch_cache_session();
 $issdb = new issuer_database(new application_registration_repository(), new deployment_repository());
-$cookie = new ImsCookie();
-$serviceconnector = new LtiServiceConnector($sesscache, new http_client(new curl()));
-$messagelaunch = LtiMessageLaunch::fromCache($launchid, $issdb, $sesscache, $serviceconnector);
+$cookie = new lti_cookie();
+
+$serviceconnector = new LtiServiceConnector($sesscache, new http_client());
+$messagelaunch = LtiMessageLaunch::fromCache($launchid, $issdb, $sesscache, $cookie, $serviceconnector);
 
 if (!$messagelaunch->isDeepLinkLaunch()) {
     throw new coding_exception('Configuration can only be accessed as part of a content item selection deep link '.
         'launch.');
 }
+
 $sesscache->purge();
 
 // Get the selected resources and create the resource link content items to post back.
@@ -64,7 +73,7 @@ $resources = $resourcerepo->find_all_by_ids_for_user($modules, $USER->id);
 $contentitems = [];
 foreach ($resources as $resource) {
 
-    $contentitem = LtiDeepLinkResource::new()
+    $contentitem = Resource::new()
         ->setUrl($CFG->wwwroot . '/enrol/lticoursetemplate/launch.php')
         ->setCustomParams(['id' => $resource->get_uuid()])
         ->setTitle($resource->get_name());
@@ -83,7 +92,6 @@ foreach ($resources as $resource) {
     $contentitems[] = $contentitem;
 }
 
-
 global $USER, $CFG, $OUTPUT;
 $PAGE->set_context(context_system::instance());
 $url = new moodle_url('/enrol/lticoursetemplate/configure.php');
@@ -91,5 +99,13 @@ $PAGE->set_url($url);
 $PAGE->set_pagelayout('popup');
 echo $OUTPUT->header();
 $dl = $messagelaunch->getDeepLink();
-$dl->outputResponseForm($contentitems);
+
+$formactionurl = $messagelaunch->getLaunchData()[LtiConstants::DL_DEEP_LINK_SETTINGS]['deep_link_return_url'];
+echo <<<HTML
+<form id="auto_submit" action="{$formactionurl}" method="POST">
+    <input type="hidden" name="JWT" value="{$messagelaunch->getDeepLink()->getResponseJwt($contentitems)}" />
+    <input type="submit" name="Go" />
+</form>
+<script>document.getElementById('auto_submit').submit();</script>
+HTML;
 

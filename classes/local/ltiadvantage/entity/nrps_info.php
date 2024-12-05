@@ -21,7 +21,7 @@ namespace enrol_lticoursetemplate\local\ltiadvantage\entity;
  *
  * For information about Names and Role Provisioning Services 2.0, see http://www.imsglobal.org/spec/lti-nrps/v2p0.
  *
- * @package    enrol_lticoursetemplate
+ * @package    enrol_lti
  * @copyright  2021 Jake Dallimore <jrhdallimore@gmail.com>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later */
 class nrps_info {
@@ -108,7 +108,7 @@ class nrps_info {
      * @return \moodle_url the service URL.
      */
     public function get_context_memberships_url(): \moodle_url {
-        return $this->contextmembershipsurl;
+        return clone $this->contextmembershipsurl;
     }
 
     /**

@@ -29,8 +29,9 @@
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
-use enrol_lticoursetemplate\local\ltiadvantage\lib\http_client;
-use enrol_lticoursetemplate\local\ltiadvantage\lib\issuer_database;
+ use core\http_client;
+
+ use enrol_lticoursetemplate\local\ltiadvantage\lib\issuer_database;
 use enrol_lticoursetemplate\local\ltiadvantage\lib\launch_cache_session;
 use enrol_lticoursetemplate\local\ltiadvantage\repository\application_registration_repository;
 use enrol_lticoursetemplate\local\ltiadvantage\repository\context_repository;
@@ -41,7 +42,12 @@ use enrol_lticoursetemplate\local\ltiadvantage\repository\user_repository;
 use enrol_lticoursetemplate\local\ltiadvantage\service\tool_launch_service;
 use enrol_lticoursetemplate\local\ltiadvantage\utility\message_helper;
 use enrol_lticoursetemplate\event\ltiuser_suspended;
-use Packback\Lti1p3\ImsStorage\ImsCookie;
+
+use auth_lti\local\ltiadvantage\utility\cookie_helper;
+use enrol_lti\local\ltiadvantage\lib\lti_cookie;
+
+
+//use Packback\Lti1p3\ImsStorage\lti_cookie;
 use Packback\Lti1p3\LtiMessageLaunch;
 use Packback\Lti1p3\LtiServiceConnector;
 
@@ -65,11 +71,11 @@ if (empty($idtoken) && empty($launchid)) {
 // Support caching the launch and retrieving it after the account binding process described in auth::complete_login().
 $sesscache = new launch_cache_session();
 $issdb = new issuer_database(new application_registration_repository(), new deployment_repository());
-$cookie = new ImsCookie();
-$serviceconnector = new LtiServiceConnector($sesscache, new http_client(new curl()));
+$cookie = new lti_cookie();
+$serviceconnector = new LtiServiceConnector($sesscache, new http_client());
 if ($idtoken) {
     $messagelaunch = LtiMessageLaunch::new($issdb, $sesscache, $cookie, $serviceconnector)
-        ->validate();
+        ->initialize($_POST);
 }
 if ($launchid) {
     $messagelaunch = LtiMessageLaunch::fromCache($launchid, $issdb, $sesscache, $serviceconnector);
@@ -88,7 +94,6 @@ if (!empty($launchdata['https://purl.imsglobal.org/spec/lti/claim/lti1p1']['oaut
         $launchdata['https://purl.imsglobal.org/spec/lti/claim/lti1p1']['oauth_consumer_key']
     );
 }
-
 // To authenticate, we need the resource's account provisioning mode for the given LTI role.
 if (empty($launchdata['https://purl.imsglobal.org/spec/lti/claim/custom']['id'])) {
     throw new \moodle_exception('ltiadvlauncherror:missingid', 'enrol_lticoursetemplate');
@@ -126,6 +131,7 @@ $toollaunchservice = new tool_launch_service(
     new user_repository(),
     new context_repository()
 );
+
 
 [$userid, $resource] = $toollaunchservice->user_launches_tool($USER, $messagelaunch);
 

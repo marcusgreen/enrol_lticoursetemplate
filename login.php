@@ -30,8 +30,11 @@ use enrol_lticoursetemplate\local\ltiadvantage\lib\issuer_database;
 use enrol_lticoursetemplate\local\ltiadvantage\lib\launch_cache_session;
 use enrol_lticoursetemplate\local\ltiadvantage\repository\application_registration_repository;
 use enrol_lticoursetemplate\local\ltiadvantage\repository\deployment_repository;
-use Packback\Lti1p3\ImsStorage\ImsCookie;
+//use Packback\Lti1p3\ImsStorage\lti_cookie;
 use Packback\Lti1p3\LtiOidcLogin;
+
+use auth_lti\local\ltiadvantage\utility\cookie_helper;
+use enrol_lti\local\ltiadvantage\lib\lti_cookie;
 
 require_once(__DIR__."/../../config.php");
 
@@ -75,12 +78,35 @@ global $_REQUEST;
 if (empty($_REQUEST['client_id']) && !empty($_REQUEST['id'])) {
     $_REQUEST['client_id'] = $_REQUEST['id'];
 }
+// Before beginning the OIDC authentication, ensure the MoodleSession cookie can be used. Browser-specific steps may need to be
+// taken to set cookies in 3rd party contexts. Skip the check if the user is already auth'd. This means that either cookies aren't
+// an issue in the current browser/launch context.
+if (!isloggedin()) {
+    cookie_helper::do_cookie_check(new moodle_url('/enrol/lticoursetemplate/login.php', [
+        'iss' => $iss,
+        'login_hint' => $loginhint,
+        'target_link_uri' => $targetlinkuri,
+        'lti_message_hint' => $ltimessagehint,
+        'client_id' => $_REQUEST['client_id'],
+    ]));
+    if (!cookie_helper::cookies_supported()) {
+        global $OUTPUT, $PAGE;
+        $PAGE->set_context(context_system::instance());
+        $PAGE->set_url(new moodle_url('/enrol/lticoursetemplate/login.php'));
+        $PAGE->set_pagelayout('popup');
+        echo $OUTPUT->header();
+        $renderer = $PAGE->get_renderer('enrol_lticoursetemplate');
+        echo $renderer->render_cookies_required_notice();
+        echo $OUTPUT->footer();
+        die();
+    }
+}
 
 // Now, do the OIDC login.
-LtiOidcLogin::new(
+$redirecturl = LtiOidcLogin::new(
     new issuer_database(new application_registration_repository(), new deployment_repository()),
     new launch_cache_session(),
-    new ImsCookie()
-)
-    ->doOidcLoginRedirect($targetlinkuri)
-    ->doRedirect();
+    new lti_cookie()
+)->getRedirectUrl($targetlinkuri, $_REQUEST);
+
+redirect($redirecturl);

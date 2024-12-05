@@ -21,7 +21,7 @@ namespace enrol_lticoursetemplate\local\ltiadvantage\entity;
  *
  * See: http://www.imsglobal.org/spec/lti/v1p3/#context-type-vocabulary for supported context types.
  *
- * @package    enrol_lticoursetemplate
+ * @package    enrol_lti
  * @copyright  2021 Jake Dallimore <jrhdallimore@gmail.com>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later */
 class context {

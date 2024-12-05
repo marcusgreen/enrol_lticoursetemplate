@@ -19,7 +19,7 @@ namespace enrol_lticoursetemplate\local\ltiadvantage\utility;
 /**
  * Utility class for LTI Advantage messages.
  *
- * @package    enrol_lticoursetemplate
+ * @package    enrol_lti
  * @copyright  2021 Jake Dallimore <jrhdallimore@gmail.com>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */

@@ -26,7 +26,6 @@ use enrol_lticoursetemplate\local\ltiadvantage\table\published_resources_table;
 
 require_once(__DIR__ . '/../../config.php');
 require_once($CFG->dirroot.'/enrol/lticoursetemplate/lib.php');
-
 $courseid = required_param('courseid', PARAM_INT);
 $action = optional_param('action', '', PARAM_ALPHA);
 $legacy = optional_param('legacy', false, PARAM_BOOL);
