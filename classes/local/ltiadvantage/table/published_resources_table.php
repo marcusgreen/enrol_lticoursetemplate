@@ -68,7 +68,7 @@ class published_resources_table extends \table_sql {
         ));
         $this->define_headers(array(
             get_string('name'),
-            get_string('lti13launchdetails', 'enrol_lti'),
+            get_string('lti13launchdetails', 'enrol_lticoursetemplate'),
             get_string('edit')
         ));
         $this->collapsible(false);
