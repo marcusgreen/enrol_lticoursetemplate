@@ -1,0 +1,880 @@
+<svg width="1150pt" height="1434pt" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events" style="overflow: hidden; "><g id="viewport-20241210200319164" class="svg-pan-zoom_viewport" transform="matrix(0.6464435146443515,0,0,0.6464435146443515,11.79497907949792,0)" style="transform: matrix(0.646444, 0, 0, 0.646444, 11.795, 0);">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 1430)">
+<title>component</title>
+<polygon fill="white" stroke="none" points="-4,4 -4,-1430 1146,-1430 1146,4 -4,4"></polygon>
+<g id="clust1" class="cluster">
+<title>cluster_component</title>
+<polygon fill="#eeeeee" stroke="#eeeeee" points="8,-353 8,-1418 1134,-1418 1134,-353 8,-353"></polygon>
+<text text-anchor="middle" x="571" y="-1401.4" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Component tables</text>
+</g>
+<g id="clust2" class="cluster">
+<title>cluster_core_tables</title>
+<polygon fill="#ffdd00" stroke="#ffdd00" points="762.73,-8 762.73,-345 872.27,-345 872.27,-8 762.73,-8"></polygon>
+<text text-anchor="middle" x="817.5" y="-328.4" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Core tables</text>
+</g>
+<!-- enrol_ct_tools -->
+<g id="node1" class="node">
+<title>enrol_ct_tools</title>
+<polygon fill="white" stroke="none" points="647,-745 498,-745 498,-361 647,-361 647,-745"></polygon>
+<polygon fill="lightblue" stroke="none" points="498,-729 498,-745 647,-745 647,-729 498,-729"></polygon>
+<polygon fill="none" stroke="#333333" points="498,-729 498,-745 647,-745 647,-729 498,-729"></polygon>
+<text text-anchor="start" x="544.48" y="-733.9" font-family="Helvetica,sans-Serif" font-size="9.00">enrol_ct_tools</text>
+<polygon fill="none" stroke="#333333" points="498,-713 498,-729 534,-729 534,-713 498,-713"></polygon>
+<text text-anchor="start" x="501" y="-717.9" font-family="Helvetica,sans-Serif" font-size="9.00">int</text>
+<polygon fill="none" stroke="#333333" points="534,-713 534,-729 647,-729 647,-713 534,-713"></polygon>
+<text text-anchor="start" x="537" y="-717.9" font-family="Helvetica,sans-Serif" font-size="9.00">id</text>
+<polygon fill="none" stroke="#333333" points="498,-697 498,-713 534,-713 534,-697 498,-697"></polygon>
+<text text-anchor="start" x="501" y="-701.9" font-family="Helvetica,sans-Serif" font-size="9.00">int</text>
+<polygon fill="none" stroke="#333333" points="534,-697 534,-713 647,-713 647,-697 534,-697"></polygon>
+<text text-anchor="start" x="537" y="-701.9" font-family="Helvetica,sans-Serif" font-size="9.00">enrolid</text>
+<polygon fill="none" stroke="#333333" points="498,-681 498,-697 534,-697 534,-681 498,-681"></polygon>
+<text text-anchor="start" x="501" y="-685.9" font-family="Helvetica,sans-Serif" font-size="9.00">int</text>
+<polygon fill="none" stroke="#333333" points="534,-681 534,-697 647,-697 647,-681 534,-681"></polygon>
+<text text-anchor="start" x="537" y="-685.9" font-family="Helvetica,sans-Serif" font-size="9.00">contextid</text>
+<polygon fill="none" stroke="#333333" points="498,-665 498,-681 534,-681 534,-665 498,-665"></polygon>
+<text text-anchor="start" x="500.99" y="-669.9" font-family="Helvetica,sans-Serif" font-size="9.00">varchar</text>
+<polygon fill="none" stroke="#333333" points="534,-665 534,-681 647,-681 647,-665 534,-665"></polygon>
+<text text-anchor="start" x="537" y="-669.9" font-family="Helvetica,sans-Serif" font-size="9.00">ltiversion</text>
+<polygon fill="none" stroke="#333333" points="498,-649 498,-665 534,-665 534,-649 498,-649"></polygon>
+<text text-anchor="start" x="500.99" y="-653.9" font-family="Helvetica,sans-Serif" font-size="9.00">varchar</text>
+<polygon fill="none" stroke="#333333" points="534,-649 534,-665 647,-665 647,-649 534,-649"></polygon>
+<text text-anchor="start" x="537" y="-653.9" font-family="Helvetica,sans-Serif" font-size="9.00">institution</text>
+<polygon fill="none" stroke="#333333" points="498,-633 498,-649 534,-649 534,-633 498,-633"></polygon>
+<text text-anchor="start" x="500.99" y="-637.9" font-family="Helvetica,sans-Serif" font-size="9.00">varchar</text>
+<polygon fill="none" stroke="#333333" points="534,-633 534,-649 647,-649 647,-633 534,-633"></polygon>
+<text text-anchor="start" x="537" y="-637.9" font-family="Helvetica,sans-Serif" font-size="9.00">lang</text>
+<polygon fill="none" stroke="#333333" points="498,-617 498,-633 534,-633 534,-617 498,-617"></polygon>
+<text text-anchor="start" x="500.99" y="-621.9" font-family="Helvetica,sans-Serif" font-size="9.00">varchar</text>
+<polygon fill="none" stroke="#333333" points="534,-617 534,-633 647,-633 647,-617 534,-617"></polygon>
+<text text-anchor="start" x="537" y="-621.9" font-family="Helvetica,sans-Serif" font-size="9.00">timezone</text>
+<polygon fill="none" stroke="#333333" points="498,-601 498,-617 534,-617 534,-601 498,-601"></polygon>
+<text text-anchor="start" x="501" y="-605.9" font-family="Helvetica,sans-Serif" font-size="9.00">int</text>
+<polygon fill="none" stroke="#333333" points="534,-601 534,-617 647,-617 647,-601 534,-601"></polygon>
+<text text-anchor="start" x="537" y="-605.9" font-family="Helvetica,sans-Serif" font-size="9.00">maxenrolled</text>
+<polygon fill="none" stroke="#333333" points="498,-585 498,-601 534,-601 534,-585 498,-585"></polygon>
+<text text-anchor="start" x="501" y="-589.9" font-family="Helvetica,sans-Serif" font-size="9.00">int</text>
+<polygon fill="none" stroke="#333333" points="534,-585 534,-601 647,-601 647,-585 534,-585"></polygon>
+<text text-anchor="start" x="537" y="-589.9" font-family="Helvetica,sans-Serif" font-size="9.00">maildisplay</text>
+<polygon fill="none" stroke="#333333" points="498,-569 498,-585 534,-585 534,-569 498,-569"></polygon>
+<text text-anchor="start" x="500.99" y="-573.9" font-family="Helvetica,sans-Serif" font-size="9.00">varchar</text>
+<polygon fill="none" stroke="#333333" points="534,-569 534,-585 647,-585 647,-569 534,-569"></polygon>
+<text text-anchor="start" x="537" y="-573.9" font-family="Helvetica,sans-Serif" font-size="9.00">city</text>
+<polygon fill="none" stroke="#333333" points="498,-553 498,-569 534,-569 534,-553 498,-553"></polygon>
+<text text-anchor="start" x="500.99" y="-557.9" font-family="Helvetica,sans-Serif" font-size="9.00">varchar</text>
+<polygon fill="none" stroke="#333333" points="534,-553 534,-569 647,-569 647,-553 534,-553"></polygon>
+<text text-anchor="start" x="537" y="-557.9" font-family="Helvetica,sans-Serif" font-size="9.00">country</text>
+<polygon fill="none" stroke="#333333" points="498,-537 498,-553 534,-553 534,-537 498,-537"></polygon>
+<text text-anchor="start" x="501" y="-541.9" font-family="Helvetica,sans-Serif" font-size="9.00">int</text>
+<polygon fill="none" stroke="#333333" points="534,-537 534,-553 647,-553 647,-537 534,-537"></polygon>
+<text text-anchor="start" x="537" y="-541.9" font-family="Helvetica,sans-Serif" font-size="9.00">gradesync</text>
+<polygon fill="none" stroke="#333333" points="498,-521 498,-537 534,-537 534,-521 498,-521"></polygon>
+<text text-anchor="start" x="501" y="-525.9" font-family="Helvetica,sans-Serif" font-size="9.00">int</text>
+<polygon fill="none" stroke="#333333" points="534,-521 534,-537 647,-537 647,-521 534,-521"></polygon>
+<text text-anchor="start" x="537" y="-525.9" font-family="Helvetica,sans-Serif" font-size="9.00">gradesynccompletion</text>
+<polygon fill="none" stroke="#333333" points="498,-505 498,-521 534,-521 534,-505 498,-505"></polygon>
+<text text-anchor="start" x="501" y="-509.9" font-family="Helvetica,sans-Serif" font-size="9.00">int</text>
+<polygon fill="none" stroke="#333333" points="534,-505 534,-521 647,-521 647,-505 534,-505"></polygon>
+<text text-anchor="start" x="537" y="-509.9" font-family="Helvetica,sans-Serif" font-size="9.00">membersync</text>
+<polygon fill="none" stroke="#333333" points="498,-489 498,-505 534,-505 534,-489 498,-489"></polygon>
+<text text-anchor="start" x="501" y="-493.9" font-family="Helvetica,sans-Serif" font-size="9.00">int</text>
+<polygon fill="none" stroke="#333333" points="534,-489 534,-505 647,-505 647,-489 534,-489"></polygon>
+<text text-anchor="start" x="537" y="-493.9" font-family="Helvetica,sans-Serif" font-size="9.00">membersyncmode</text>
+<polygon fill="none" stroke="#333333" points="498,-473 498,-489 534,-489 534,-473 498,-473"></polygon>
+<text text-anchor="start" x="501" y="-477.9" font-family="Helvetica,sans-Serif" font-size="9.00">int</text>
+<polygon fill="none" stroke="#333333" points="534,-473 534,-489 647,-489 647,-473 534,-473"></polygon>
+<text text-anchor="start" x="537" y="-477.9" font-family="Helvetica,sans-Serif" font-size="9.00">roleinstructor</text>
+<polygon fill="none" stroke="#333333" points="498,-457 498,-473 534,-473 534,-457 498,-457"></polygon>
+<text text-anchor="start" x="501" y="-461.9" font-family="Helvetica,sans-Serif" font-size="9.00">int</text>
+<polygon fill="none" stroke="#333333" points="534,-457 534,-473 647,-473 647,-457 534,-457"></polygon>
+<text text-anchor="start" x="537" y="-461.9" font-family="Helvetica,sans-Serif" font-size="9.00">rolelearner</text>
+<polygon fill="none" stroke="#333333" points="498,-441 498,-457 534,-457 534,-441 498,-441"></polygon>
+<text text-anchor="start" x="501" y="-445.9" font-family="Helvetica,sans-Serif" font-size="9.00">text</text>
+<polygon fill="none" stroke="#333333" points="534,-441 534,-457 647,-457 647,-441 534,-441"></polygon>
+<text text-anchor="start" x="537" y="-445.9" font-family="Helvetica,sans-Serif" font-size="9.00">secret</text>
+<polygon fill="none" stroke="#333333" points="498,-425 498,-441 534,-441 534,-425 498,-425"></polygon>
+<text text-anchor="start" x="500.99" y="-429.9" font-family="Helvetica,sans-Serif" font-size="9.00">varchar</text>
+<polygon fill="none" stroke="#333333" points="534,-425 534,-441 647,-441 647,-425 534,-425"></polygon>
+<text text-anchor="start" x="537" y="-429.9" font-family="Helvetica,sans-Serif" font-size="9.00">uuid</text>
+<polygon fill="none" stroke="#333333" points="498,-409 498,-425 534,-425 534,-409 498,-409"></polygon>
+<text text-anchor="start" x="501" y="-413.9" font-family="Helvetica,sans-Serif" font-size="9.00">int</text>
+<polygon fill="none" stroke="#333333" points="534,-409 534,-425 647,-425 647,-409 534,-409"></polygon>
+<text text-anchor="start" x="537" y="-413.9" font-family="Helvetica,sans-Serif" font-size="9.00">provisioningmodelearner</text>
+<polygon fill="none" stroke="#333333" points="498,-393 498,-409 534,-409 534,-393 498,-393"></polygon>
+<text text-anchor="start" x="501" y="-397.9" font-family="Helvetica,sans-Serif" font-size="9.00">int</text>
+<polygon fill="none" stroke="#333333" points="534,-393 534,-409 647,-409 647,-393 534,-393"></polygon>
+<text text-anchor="start" x="536.72" y="-397.9" font-family="Helvetica,sans-Serif" font-size="9.00">provisioningmodeinstructor</text>
+<polygon fill="none" stroke="#333333" points="498,-377 498,-393 534,-393 534,-377 498,-377"></polygon>
+<text text-anchor="start" x="501" y="-381.9" font-family="Helvetica,sans-Serif" font-size="9.00">int</text>
+<polygon fill="none" stroke="#333333" points="534,-377 534,-393 647,-393 647,-377 534,-377"></polygon>
+<text text-anchor="start" x="537" y="-381.9" font-family="Helvetica,sans-Serif" font-size="9.00">timecreated</text>
+<polygon fill="none" stroke="#333333" points="498,-361 498,-377 534,-377 534,-361 498,-361"></polygon>
+<text text-anchor="start" x="501" y="-365.9" font-family="Helvetica,sans-Serif" font-size="9.00">int</text>
+<polygon fill="none" stroke="#333333" points="534,-361 534,-377 647,-377 647,-361 534,-361"></polygon>
+<text text-anchor="start" x="537" y="-365.9" font-family="Helvetica,sans-Serif" font-size="9.00">timemodified</text>
+</g>
+<!-- enrol -->
+<g id="node2" class="node">
+<title>enrol</title>
+<polygon fill="white" stroke="none" points="844.5,-312 790.5,-312 790.5,-276 844.5,-276 844.5,-312"></polygon>
+<polygon fill="orange" stroke="none" points="802.99,-284.6 802.99,-303.4 832.01,-303.4 832.01,-284.6 802.99,-284.6"></polygon>
+<polygon fill="none" stroke="#333333" points="802.99,-284.6 802.99,-303.4 832.01,-303.4 832.01,-284.6 802.99,-284.6"></polygon>
+<text text-anchor="start" x="807.49" y="-291.3" font-family="Helvetica,sans-Serif" font-size="9.00">enrol</text>
+</g>
+<!-- enrol_ct_tools&#45;&gt;enrol -->
+<g id="edge1" class="edge">
+<title>enrol_ct_tools:outenrolid-&gt;enrol</title>
+<path fill="none" stroke="black" d="M647,-705C813.88,-705 666.25,-486.05 757,-346 763.61,-335.79 772.78,-326.42 781.95,-318.52"></path>
+<polygon fill="black" stroke="black" points="783.93,-321.42 789.47,-312.39 779.51,-315.99 783.93,-321.42"></polygon>
+</g>
+<!-- context -->
+<g id="node3" class="node">
+<title>context</title>
+<polygon fill="white" stroke="none" points="844.5,-247 790.5,-247 790.5,-211 844.5,-211 844.5,-247"></polygon>
+<polygon fill="orange" stroke="none" points="798.49,-219.6 798.49,-238.4 836.51,-238.4 836.51,-219.6 798.49,-219.6"></polygon>
+<polygon fill="none" stroke="#333333" points="798.49,-219.6 798.49,-238.4 836.51,-238.4 836.51,-219.6 798.49,-219.6"></polygon>
+<text text-anchor="start" x="802.99" y="-226.3" font-family="Helvetica,sans-Serif" font-size="9.00">context</text>
+</g>
+<!-- enrol_ct_tools&#45;&gt;context -->
+<g id="edge2" class="edge">
+<title>enrol_ct_tools:outcontextid-&gt;context</title>
+<path fill="none" stroke="black" d="M647,-689C842.97,-689 637.11,-417.03 757,-262 763.13,-254.08 771.73,-247.78 780.49,-242.9"></path>
+<polygon fill="black" stroke="black" points="781.96,-246.08 789.35,-238.49 778.84,-239.81 781.96,-246.08"></polygon>
+</g>
+<!-- enrol_ct_users -->
+<g id="node4" class="node">
+<title>enrol_ct_users</title>
+<polygon fill="white" stroke="none" points="373.5,-585 267.5,-585 267.5,-361 373.5,-361 373.5,-585"></polygon>
+<polygon fill="lightblue" stroke="none" points="267.5,-569 267.5,-585 373.5,-585 373.5,-569 267.5,-569"></polygon>
+<polygon fill="none" stroke="#333333" points="267.5,-569 267.5,-585 373.5,-585 373.5,-569 267.5,-569"></polygon>
+<text text-anchor="start" x="290.98" y="-573.9" font-family="Helvetica,sans-Serif" font-size="9.00">enrol_ct_users</text>
+<polygon fill="none" stroke="#333333" points="267.5,-553 267.5,-569 303.5,-569 303.5,-553 267.5,-553"></polygon>
+<text text-anchor="start" x="270.5" y="-557.9" font-family="Helvetica,sans-Serif" font-size="9.00">int</text>
+<polygon fill="none" stroke="#333333" points="303.5,-553 303.5,-569 373.5,-569 373.5,-553 303.5,-553"></polygon>
+<text text-anchor="start" x="306.5" y="-557.9" font-family="Helvetica,sans-Serif" font-size="9.00">id</text>
+<polygon fill="none" stroke="#333333" points="267.5,-537 267.5,-553 303.5,-553 303.5,-537 267.5,-537"></polygon>
+<text text-anchor="start" x="270.5" y="-541.9" font-family="Helvetica,sans-Serif" font-size="9.00">int</text>
+<polygon fill="none" stroke="#333333" points="303.5,-537 303.5,-553 373.5,-553 373.5,-537 303.5,-537"></polygon>
+<text text-anchor="start" x="306.5" y="-541.9" font-family="Helvetica,sans-Serif" font-size="9.00">userid</text>
+<polygon fill="none" stroke="#333333" points="267.5,-521 267.5,-537 303.5,-537 303.5,-521 267.5,-521"></polygon>
+<text text-anchor="start" x="270.5" y="-525.9" font-family="Helvetica,sans-Serif" font-size="9.00">int</text>
+<polygon fill="none" stroke="#333333" points="303.5,-521 303.5,-537 373.5,-537 373.5,-521 303.5,-521"></polygon>
+<text text-anchor="start" x="306.5" y="-525.9" font-family="Helvetica,sans-Serif" font-size="9.00">toolid</text>
+<polygon fill="none" stroke="#333333" points="267.5,-505 267.5,-521 303.5,-521 303.5,-505 267.5,-505"></polygon>
+<text text-anchor="start" x="270.5" y="-509.9" font-family="Helvetica,sans-Serif" font-size="9.00">text</text>
+<polygon fill="none" stroke="#333333" points="303.5,-505 303.5,-521 373.5,-521 373.5,-505 303.5,-505"></polygon>
+<text text-anchor="start" x="306.5" y="-509.9" font-family="Helvetica,sans-Serif" font-size="9.00">serviceurl</text>
+<polygon fill="none" stroke="#333333" points="267.5,-489 267.5,-505 303.5,-505 303.5,-489 267.5,-489"></polygon>
+<text text-anchor="start" x="270.5" y="-493.9" font-family="Helvetica,sans-Serif" font-size="9.00">text</text>
+<polygon fill="none" stroke="#333333" points="303.5,-489 303.5,-505 373.5,-505 373.5,-489 303.5,-489"></polygon>
+<text text-anchor="start" x="306.5" y="-493.9" font-family="Helvetica,sans-Serif" font-size="9.00">sourceid</text>
+<polygon fill="none" stroke="#333333" points="267.5,-473 267.5,-489 303.5,-489 303.5,-473 267.5,-473"></polygon>
+<text text-anchor="start" x="270.5" y="-477.9" font-family="Helvetica,sans-Serif" font-size="9.00">int</text>
+<polygon fill="none" stroke="#333333" points="303.5,-473 303.5,-489 373.5,-489 373.5,-473 303.5,-473"></polygon>
+<text text-anchor="start" x="306.5" y="-477.9" font-family="Helvetica,sans-Serif" font-size="9.00">ltideploymentid</text>
+<polygon fill="none" stroke="#333333" points="267.5,-457 267.5,-473 303.5,-473 303.5,-457 267.5,-457"></polygon>
+<text text-anchor="start" x="270.5" y="-461.9" font-family="Helvetica,sans-Serif" font-size="9.00">text</text>
+<polygon fill="none" stroke="#333333" points="303.5,-457 303.5,-473 373.5,-473 373.5,-457 303.5,-457"></polygon>
+<text text-anchor="start" x="306.5" y="-461.9" font-family="Helvetica,sans-Serif" font-size="9.00">consumerkey</text>
+<polygon fill="none" stroke="#333333" points="267.5,-441 267.5,-457 303.5,-457 303.5,-441 267.5,-441"></polygon>
+<text text-anchor="start" x="270.5" y="-445.9" font-family="Helvetica,sans-Serif" font-size="9.00">text</text>
+<polygon fill="none" stroke="#333333" points="303.5,-441 303.5,-457 373.5,-457 373.5,-441 303.5,-441"></polygon>
+<text text-anchor="start" x="306.49" y="-445.9" font-family="Helvetica,sans-Serif" font-size="9.00">consumersecret</text>
+<polygon fill="none" stroke="#333333" points="267.5,-425 267.5,-441 303.5,-441 303.5,-425 267.5,-425"></polygon>
+<text text-anchor="start" x="270.5" y="-429.9" font-family="Helvetica,sans-Serif" font-size="9.00">text</text>
+<polygon fill="none" stroke="#333333" points="303.5,-425 303.5,-441 373.5,-441 373.5,-425 303.5,-425"></polygon>
+<text text-anchor="start" x="306.49" y="-429.9" font-family="Helvetica,sans-Serif" font-size="9.00">membershipsurl</text>
+<polygon fill="none" stroke="#333333" points="267.5,-409 267.5,-425 303.5,-425 303.5,-409 267.5,-409"></polygon>
+<text text-anchor="start" x="270.5" y="-413.9" font-family="Helvetica,sans-Serif" font-size="9.00">text</text>
+<polygon fill="none" stroke="#333333" points="303.5,-409 303.5,-425 373.5,-425 373.5,-409 303.5,-409"></polygon>
+<text text-anchor="start" x="306.5" y="-413.9" font-family="Helvetica,sans-Serif" font-size="9.00">membershipsid</text>
+<polygon fill="none" stroke="#333333" points="267.5,-393 267.5,-409 303.5,-409 303.5,-393 267.5,-393"></polygon>
+<text text-anchor="start" x="270.24" y="-397.9" font-family="Helvetica,sans-Serif" font-size="9.00">number</text>
+<polygon fill="none" stroke="#333333" points="303.5,-393 303.5,-409 373.5,-409 373.5,-393 303.5,-393"></polygon>
+<text text-anchor="start" x="306.5" y="-397.9" font-family="Helvetica,sans-Serif" font-size="9.00">lastgrade</text>
+<polygon fill="none" stroke="#333333" points="267.5,-377 267.5,-393 303.5,-393 303.5,-377 267.5,-377"></polygon>
+<text text-anchor="start" x="270.5" y="-381.9" font-family="Helvetica,sans-Serif" font-size="9.00">int</text>
+<polygon fill="none" stroke="#333333" points="303.5,-377 303.5,-393 373.5,-393 373.5,-377 303.5,-377"></polygon>
+<text text-anchor="start" x="306.5" y="-381.9" font-family="Helvetica,sans-Serif" font-size="9.00">lastaccess</text>
+<polygon fill="none" stroke="#333333" points="267.5,-361 267.5,-377 303.5,-377 303.5,-361 267.5,-361"></polygon>
+<text text-anchor="start" x="270.5" y="-365.9" font-family="Helvetica,sans-Serif" font-size="9.00">int</text>
+<polygon fill="none" stroke="#333333" points="303.5,-361 303.5,-377 373.5,-377 373.5,-361 303.5,-361"></polygon>
+<text text-anchor="start" x="306.5" y="-365.9" font-family="Helvetica,sans-Serif" font-size="9.00">timecreated</text>
+</g>
+<!-- enrol_ct_users&#45;&gt;enrol_ct_tools -->
+<g id="edge4" class="edge">
+<title>enrol_ct_users:outtoolid-&gt;enrol_ct_tools:inid</title>
+<path fill="none" stroke="black" d="M374.5,-529C471.9,-529 402.61,-705.93 486.66,-720.1"></path>
+<polygon fill="black" stroke="black" points="486.25,-723.58 496.49,-720.88 486.8,-716.6 486.25,-723.58"></polygon>
+</g>
+<!-- user -->
+<g id="node5" class="node">
+<title>user</title>
+<polygon fill="white" stroke="none" points="844.5,-182 790.5,-182 790.5,-146 844.5,-146 844.5,-182"></polygon>
+<polygon fill="orange" stroke="none" points="804.25,-154.6 804.25,-173.4 830.75,-173.4 830.75,-154.6 804.25,-154.6"></polygon>
+<polygon fill="none" stroke="#333333" points="804.25,-154.6 804.25,-173.4 830.75,-173.4 830.75,-154.6 804.25,-154.6"></polygon>
+<text text-anchor="start" x="808.75" y="-161.3" font-family="Helvetica,sans-Serif" font-size="9.00">user</text>
+</g>
+<!-- enrol_ct_users&#45;&gt;user -->
+<g id="edge3" class="edge">
+<title>enrol_ct_users:outuserid-&gt;user</title>
+<path fill="none" stroke="black" d="M374.5,-545C491.23,-545 344.27,-297 461,-297 461,-297 461,-297 684,-297 739.03,-297 717.43,-235.24 757,-197 763.82,-190.41 772.22,-184.7 780.54,-179.97"></path>
+<polygon fill="black" stroke="black" points="781.98,-183.17 789.19,-175.41 778.71,-176.98 781.98,-183.17"></polygon>
+</g>
+<!-- enrol_ct_deployment -->
+<g id="node6" class="node">
+<title>enrol_ct_deployment</title>
+<polygon fill="white" stroke="none" points="878,-885 757,-885 757,-757 878,-757 878,-885"></polygon>
+<polygon fill="lightblue" stroke="none" points="757,-869 757,-885 878,-885 878,-869 757,-869"></polygon>
+<polygon fill="none" stroke="#333333" points="757,-869 757,-885 878,-885 878,-869 757,-869"></polygon>
+<text text-anchor="start" x="775.72" y="-873.9" font-family="Helvetica,sans-Serif" font-size="9.00">enrol_ct_deployment</text>
+<polygon fill="none" stroke="#333333" points="757,-853 757,-869 793,-869 793,-853 757,-853"></polygon>
+<text text-anchor="start" x="760" y="-857.9" font-family="Helvetica,sans-Serif" font-size="9.00">int</text>
+<polygon fill="none" stroke="#333333" points="793,-853 793,-869 878,-869 878,-853 793,-853"></polygon>
+<text text-anchor="start" x="796" y="-857.9" font-family="Helvetica,sans-Serif" font-size="9.00">id</text>
+<polygon fill="none" stroke="#333333" points="757,-837 757,-853 793,-853 793,-837 757,-837"></polygon>
+<text text-anchor="start" x="759.99" y="-841.9" font-family="Helvetica,sans-Serif" font-size="9.00">varchar</text>
+<polygon fill="none" stroke="#333333" points="793,-837 793,-853 878,-853 878,-837 793,-837"></polygon>
+<text text-anchor="start" x="796" y="-841.9" font-family="Helvetica,sans-Serif" font-size="9.00">name</text>
+<polygon fill="none" stroke="#333333" points="757,-821 757,-837 793,-837 793,-821 757,-821"></polygon>
+<text text-anchor="start" x="759.99" y="-825.9" font-family="Helvetica,sans-Serif" font-size="9.00">varchar</text>
+<polygon fill="none" stroke="#333333" points="793,-821 793,-837 878,-837 878,-821 793,-821"></polygon>
+<text text-anchor="start" x="796" y="-825.9" font-family="Helvetica,sans-Serif" font-size="9.00">deploymentid</text>
+<polygon fill="none" stroke="#333333" points="757,-805 757,-821 793,-821 793,-805 757,-805"></polygon>
+<text text-anchor="start" x="760" y="-809.9" font-family="Helvetica,sans-Serif" font-size="9.00">int</text>
+<polygon fill="none" stroke="#333333" points="793,-805 793,-821 878,-821 878,-805 793,-805"></polygon>
+<text text-anchor="start" x="796" y="-809.9" font-family="Helvetica,sans-Serif" font-size="9.00">platformid</text>
+<polygon fill="none" stroke="#333333" points="757,-789 757,-805 793,-805 793,-789 757,-789"></polygon>
+<text text-anchor="start" x="759.99" y="-793.9" font-family="Helvetica,sans-Serif" font-size="9.00">varchar</text>
+<polygon fill="none" stroke="#333333" points="793,-789 793,-805 878,-805 878,-789 793,-789"></polygon>
+<text text-anchor="start" x="795.73" y="-793.9" font-family="Helvetica,sans-Serif" font-size="9.00">legacyconsumerkey</text>
+<polygon fill="none" stroke="#333333" points="757,-773 757,-789 793,-789 793,-773 757,-773"></polygon>
+<text text-anchor="start" x="760" y="-777.9" font-family="Helvetica,sans-Serif" font-size="9.00">int</text>
+<polygon fill="none" stroke="#333333" points="793,-773 793,-789 878,-789 878,-773 793,-773"></polygon>
+<text text-anchor="start" x="796" y="-777.9" font-family="Helvetica,sans-Serif" font-size="9.00">timecreated</text>
+<polygon fill="none" stroke="#333333" points="757,-757 757,-773 793,-773 793,-757 757,-757"></polygon>
+<text text-anchor="start" x="760" y="-761.9" font-family="Helvetica,sans-Serif" font-size="9.00">int</text>
+<polygon fill="none" stroke="#333333" points="793,-757 793,-773 878,-773 878,-757 793,-757"></polygon>
+<text text-anchor="start" x="796" y="-761.9" font-family="Helvetica,sans-Serif" font-size="9.00">timemodified</text>
+</g>
+<!-- enrol_ct_users&#45;&gt;enrol_ct_deployment -->
+<g id="edge5" class="edge">
+<title>enrol_ct_users:outltideploymentid-&gt;enrol_ct_deployment:inid</title>
+<path fill="none" stroke="black" d="M374.5,-481C442.6,-481 392.9,-775 461,-775 461,-775 461,-775 684,-775 729.83,-775 710.98,-846.85 745.69,-859.2"></path>
+<polygon fill="black" stroke="black" points="745.08,-862.65 755.51,-860.76 746.18,-855.74 745.08,-862.65"></polygon>
+</g>
+<!-- enrol_ct_app_registration -->
+<g id="node16" class="node">
+<title>enrol_ct_app_registration</title>
+<polygon fill="white" stroke="none" points="1126,-837 988,-837 988,-613 1126,-613 1126,-837"></polygon>
+<polygon fill="lightblue" stroke="none" points="988,-821 988,-837 1126,-837 1126,-821 988,-821"></polygon>
+<polygon fill="none" stroke="#333333" points="988,-821 988,-837 1126,-837 1126,-821 988,-821"></polygon>
+<text text-anchor="start" x="1006.22" y="-825.9" font-family="Helvetica,sans-Serif" font-size="9.00">enrol_ct_app_registration</text>
+<polygon fill="none" stroke="#333333" points="988,-805 988,-821 1024,-821 1024,-805 988,-805"></polygon>
+<text text-anchor="start" x="991" y="-809.9" font-family="Helvetica,sans-Serif" font-size="9.00">int</text>
+<polygon fill="none" stroke="#333333" points="1024,-805 1024,-821 1126,-821 1126,-805 1024,-805"></polygon>
+<text text-anchor="start" x="1027" y="-809.9" font-family="Helvetica,sans-Serif" font-size="9.00">id</text>
+<polygon fill="none" stroke="#333333" points="988,-789 988,-805 1024,-805 1024,-789 988,-789"></polygon>
+<text text-anchor="start" x="990.99" y="-793.9" font-family="Helvetica,sans-Serif" font-size="9.00">varchar</text>
+<polygon fill="none" stroke="#333333" points="1024,-789 1024,-805 1126,-805 1126,-789 1024,-789"></polygon>
+<text text-anchor="start" x="1027" y="-793.9" font-family="Helvetica,sans-Serif" font-size="9.00">name</text>
+<polygon fill="none" stroke="#333333" points="988,-773 988,-789 1024,-789 1024,-773 988,-773"></polygon>
+<text text-anchor="start" x="991" y="-777.9" font-family="Helvetica,sans-Serif" font-size="9.00">text</text>
+<polygon fill="none" stroke="#333333" points="1024,-773 1024,-789 1126,-789 1126,-773 1024,-773"></polygon>
+<text text-anchor="start" x="1027" y="-777.9" font-family="Helvetica,sans-Serif" font-size="9.00">platformid</text>
+<polygon fill="none" stroke="#333333" points="988,-757 988,-773 1024,-773 1024,-757 988,-757"></polygon>
+<text text-anchor="start" x="990.99" y="-761.9" font-family="Helvetica,sans-Serif" font-size="9.00">varchar</text>
+<polygon fill="none" stroke="#333333" points="1024,-757 1024,-773 1126,-773 1126,-757 1024,-757"></polygon>
+<text text-anchor="start" x="1027" y="-761.9" font-family="Helvetica,sans-Serif" font-size="9.00">clientid</text>
+<polygon fill="none" stroke="#333333" points="988,-741 988,-757 1024,-757 1024,-741 988,-741"></polygon>
+<text text-anchor="start" x="990.99" y="-745.9" font-family="Helvetica,sans-Serif" font-size="9.00">varchar</text>
+<polygon fill="none" stroke="#333333" points="1024,-741 1024,-757 1126,-757 1126,-741 1024,-741"></polygon>
+<text text-anchor="start" x="1027" y="-745.9" font-family="Helvetica,sans-Serif" font-size="9.00">uniqueid</text>
+<polygon fill="none" stroke="#333333" points="988,-725 988,-741 1024,-741 1024,-725 988,-725"></polygon>
+<text text-anchor="start" x="990.99" y="-729.9" font-family="Helvetica,sans-Serif" font-size="9.00">varchar</text>
+<polygon fill="none" stroke="#333333" points="1024,-725 1024,-741 1126,-741 1126,-725 1024,-725"></polygon>
+<text text-anchor="start" x="1027" y="-729.9" font-family="Helvetica,sans-Serif" font-size="9.00">platformclienthash</text>
+<polygon fill="none" stroke="#333333" points="988,-709 988,-725 1024,-725 1024,-709 988,-709"></polygon>
+<text text-anchor="start" x="990.99" y="-713.9" font-family="Helvetica,sans-Serif" font-size="9.00">varchar</text>
+<polygon fill="none" stroke="#333333" points="1024,-709 1024,-725 1126,-725 1126,-709 1024,-709"></polygon>
+<text text-anchor="start" x="1027" y="-713.9" font-family="Helvetica,sans-Serif" font-size="9.00">platformuniqueidhash</text>
+<polygon fill="none" stroke="#333333" points="988,-693 988,-709 1024,-709 1024,-693 988,-693"></polygon>
+<text text-anchor="start" x="991" y="-697.9" font-family="Helvetica,sans-Serif" font-size="9.00">text</text>
+<polygon fill="none" stroke="#333333" points="1024,-693 1024,-709 1126,-709 1126,-693 1024,-693"></polygon>
+<text text-anchor="start" x="1026.97" y="-697.9" font-family="Helvetica,sans-Serif" font-size="9.00">authenticationrequesturl</text>
+<polygon fill="none" stroke="#333333" points="988,-677 988,-693 1024,-693 1024,-677 988,-677"></polygon>
+<text text-anchor="start" x="991" y="-681.9" font-family="Helvetica,sans-Serif" font-size="9.00">text</text>
+<polygon fill="none" stroke="#333333" points="1024,-677 1024,-693 1126,-693 1126,-677 1024,-677"></polygon>
+<text text-anchor="start" x="1027" y="-681.9" font-family="Helvetica,sans-Serif" font-size="9.00">jwksurl</text>
+<polygon fill="none" stroke="#333333" points="988,-661 988,-677 1024,-677 1024,-661 988,-661"></polygon>
+<text text-anchor="start" x="991" y="-665.9" font-family="Helvetica,sans-Serif" font-size="9.00">text</text>
+<polygon fill="none" stroke="#333333" points="1024,-661 1024,-677 1126,-677 1126,-661 1024,-661"></polygon>
+<text text-anchor="start" x="1027" y="-665.9" font-family="Helvetica,sans-Serif" font-size="9.00">accesstokenurl</text>
+<polygon fill="none" stroke="#333333" points="988,-645 988,-661 1024,-661 1024,-645 988,-645"></polygon>
+<text text-anchor="start" x="991" y="-649.9" font-family="Helvetica,sans-Serif" font-size="9.00">int</text>
+<polygon fill="none" stroke="#333333" points="1024,-645 1024,-661 1126,-661 1126,-645 1024,-645"></polygon>
+<text text-anchor="start" x="1027" y="-649.9" font-family="Helvetica,sans-Serif" font-size="9.00">status</text>
+<polygon fill="none" stroke="#333333" points="988,-629 988,-645 1024,-645 1024,-629 988,-629"></polygon>
+<text text-anchor="start" x="991" y="-633.9" font-family="Helvetica,sans-Serif" font-size="9.00">int</text>
+<polygon fill="none" stroke="#333333" points="1024,-629 1024,-645 1126,-645 1126,-629 1024,-629"></polygon>
+<text text-anchor="start" x="1027" y="-633.9" font-family="Helvetica,sans-Serif" font-size="9.00">timecreated</text>
+<polygon fill="none" stroke="#333333" points="988,-613 988,-629 1024,-629 1024,-613 988,-613"></polygon>
+<text text-anchor="start" x="991" y="-617.9" font-family="Helvetica,sans-Serif" font-size="9.00">int</text>
+<polygon fill="none" stroke="#333333" points="1024,-613 1024,-629 1126,-629 1126,-613 1024,-613"></polygon>
+<text text-anchor="start" x="1027" y="-617.9" font-family="Helvetica,sans-Serif" font-size="9.00">timemodified</text>
+</g>
+<!-- enrol_ct_deployment&#45;&gt;enrol_ct_app_registration -->
+<g id="edge16" class="edge">
+<title>enrol_ct_deployment:outplatformid-&gt;enrol_ct_app_registration:inid</title>
+<path fill="none" stroke="black" d="M878,-813C922.88,-813 936.86,-813 976.67,-813"></path>
+<polygon fill="black" stroke="black" points="976.49,-816.5 986.49,-813 976.49,-809.5 976.49,-816.5"></polygon>
+</g>
+<!-- enrol_ct_lti2_consumer -->
+<g id="node7" class="node">
+<title>enrol_ct_lti2_consumer</title>
+<polygon fill="white" stroke="none" points="627.5,-1297 517.5,-1297 517.5,-977 627.5,-977 627.5,-1297"></polygon>
+<polygon fill="lightblue" stroke="none" points="517.5,-1281 517.5,-1297 627.5,-1297 627.5,-1281 517.5,-1281"></polygon>
+<polygon fill="none" stroke="#333333" points="517.5,-1281 517.5,-1297 627.5,-1297 627.5,-1281 517.5,-1281"></polygon>
+<text text-anchor="start" x="525.98" y="-1285.9" font-family="Helvetica,sans-Serif" font-size="9.00">enrol_ct_lti2_consumer</text>
+<polygon fill="none" stroke="#333333" points="517.5,-1265 517.5,-1281 553.5,-1281 553.5,-1265 517.5,-1265"></polygon>
+<text text-anchor="start" x="520.5" y="-1269.9" font-family="Helvetica,sans-Serif" font-size="9.00">int</text>
+<polygon fill="none" stroke="#333333" points="553.5,-1265 553.5,-1281 627.5,-1281 627.5,-1265 553.5,-1265"></polygon>
+<text text-anchor="start" x="556.5" y="-1269.9" font-family="Helvetica,sans-Serif" font-size="9.00">id</text>
+<polygon fill="none" stroke="#333333" points="517.5,-1249 517.5,-1265 553.5,-1265 553.5,-1249 517.5,-1249"></polygon>
+<text text-anchor="start" x="520.49" y="-1253.9" font-family="Helvetica,sans-Serif" font-size="9.00">varchar</text>
+<polygon fill="none" stroke="#333333" points="553.5,-1249 553.5,-1265 627.5,-1265 627.5,-1249 553.5,-1249"></polygon>
+<text text-anchor="start" x="556.5" y="-1253.9" font-family="Helvetica,sans-Serif" font-size="9.00">name</text>
+<polygon fill="none" stroke="#333333" points="517.5,-1233 517.5,-1249 553.5,-1249 553.5,-1233 517.5,-1233"></polygon>
+<text text-anchor="start" x="520.49" y="-1237.9" font-family="Helvetica,sans-Serif" font-size="9.00">varchar</text>
+<polygon fill="none" stroke="#333333" points="553.5,-1233 553.5,-1249 627.5,-1249 627.5,-1233 553.5,-1233"></polygon>
+<text text-anchor="start" x="556.23" y="-1237.9" font-family="Helvetica,sans-Serif" font-size="9.00">consumerkey256</text>
+<polygon fill="none" stroke="#333333" points="517.5,-1217 517.5,-1233 553.5,-1233 553.5,-1217 517.5,-1217"></polygon>
+<text text-anchor="start" x="520.5" y="-1221.9" font-family="Helvetica,sans-Serif" font-size="9.00">text</text>
+<polygon fill="none" stroke="#333333" points="553.5,-1217 553.5,-1233 627.5,-1233 627.5,-1217 553.5,-1217"></polygon>
+<text text-anchor="start" x="556.5" y="-1221.9" font-family="Helvetica,sans-Serif" font-size="9.00">consumerkey</text>
+<polygon fill="none" stroke="#333333" points="517.5,-1201 517.5,-1217 553.5,-1217 553.5,-1201 517.5,-1201"></polygon>
+<text text-anchor="start" x="520.49" y="-1205.9" font-family="Helvetica,sans-Serif" font-size="9.00">varchar</text>
+<polygon fill="none" stroke="#333333" points="553.5,-1201 553.5,-1217 627.5,-1217 627.5,-1201 553.5,-1201"></polygon>
+<text text-anchor="start" x="556.5" y="-1205.9" font-family="Helvetica,sans-Serif" font-size="9.00">secret</text>
+<polygon fill="none" stroke="#333333" points="517.5,-1185 517.5,-1201 553.5,-1201 553.5,-1185 517.5,-1185"></polygon>
+<text text-anchor="start" x="520.49" y="-1189.9" font-family="Helvetica,sans-Serif" font-size="9.00">varchar</text>
+<polygon fill="none" stroke="#333333" points="553.5,-1185 553.5,-1201 627.5,-1201 627.5,-1185 553.5,-1185"></polygon>
+<text text-anchor="start" x="556.5" y="-1189.9" font-family="Helvetica,sans-Serif" font-size="9.00">ltiversion</text>
+<polygon fill="none" stroke="#333333" points="517.5,-1169 517.5,-1185 553.5,-1185 553.5,-1169 517.5,-1169"></polygon>
+<text text-anchor="start" x="520.49" y="-1173.9" font-family="Helvetica,sans-Serif" font-size="9.00">varchar</text>
+<polygon fill="none" stroke="#333333" points="553.5,-1169 553.5,-1185 627.5,-1185 627.5,-1169 553.5,-1169"></polygon>
+<text text-anchor="start" x="556.5" y="-1173.9" font-family="Helvetica,sans-Serif" font-size="9.00">consumername</text>
+<polygon fill="none" stroke="#333333" points="517.5,-1153 517.5,-1169 553.5,-1169 553.5,-1153 517.5,-1153"></polygon>
+<text text-anchor="start" x="520.49" y="-1157.9" font-family="Helvetica,sans-Serif" font-size="9.00">varchar</text>
+<polygon fill="none" stroke="#333333" points="553.5,-1153 553.5,-1169 627.5,-1169 627.5,-1153 553.5,-1153"></polygon>
+<text text-anchor="start" x="556.24" y="-1157.9" font-family="Helvetica,sans-Serif" font-size="9.00">consumerversion</text>
+<polygon fill="none" stroke="#333333" points="517.5,-1137 517.5,-1153 553.5,-1153 553.5,-1137 517.5,-1137"></polygon>
+<text text-anchor="start" x="520.49" y="-1141.9" font-family="Helvetica,sans-Serif" font-size="9.00">varchar</text>
+<polygon fill="none" stroke="#333333" points="553.5,-1137 553.5,-1153 627.5,-1153 627.5,-1137 553.5,-1137"></polygon>
+<text text-anchor="start" x="556.5" y="-1141.9" font-family="Helvetica,sans-Serif" font-size="9.00">consumerguid</text>
+<polygon fill="none" stroke="#333333" points="517.5,-1121 517.5,-1137 553.5,-1137 553.5,-1121 517.5,-1121"></polygon>
+<text text-anchor="start" x="520.5" y="-1125.9" font-family="Helvetica,sans-Serif" font-size="9.00">text</text>
+<polygon fill="none" stroke="#333333" points="553.5,-1121 553.5,-1137 627.5,-1137 627.5,-1121 553.5,-1121"></polygon>
+<text text-anchor="start" x="556.5" y="-1125.9" font-family="Helvetica,sans-Serif" font-size="9.00">profile</text>
+<polygon fill="none" stroke="#333333" points="517.5,-1105 517.5,-1121 553.5,-1121 553.5,-1105 517.5,-1105"></polygon>
+<text text-anchor="start" x="520.5" y="-1109.9" font-family="Helvetica,sans-Serif" font-size="9.00">text</text>
+<polygon fill="none" stroke="#333333" points="553.5,-1105 553.5,-1121 627.5,-1121 627.5,-1105 553.5,-1105"></polygon>
+<text text-anchor="start" x="556.5" y="-1109.9" font-family="Helvetica,sans-Serif" font-size="9.00">toolproxy</text>
+<polygon fill="none" stroke="#333333" points="517.5,-1089 517.5,-1105 553.5,-1105 553.5,-1089 517.5,-1089"></polygon>
+<text text-anchor="start" x="520.5" y="-1093.9" font-family="Helvetica,sans-Serif" font-size="9.00">text</text>
+<polygon fill="none" stroke="#333333" points="553.5,-1089 553.5,-1105 627.5,-1105 627.5,-1089 553.5,-1089"></polygon>
+<text text-anchor="start" x="556.5" y="-1093.9" font-family="Helvetica,sans-Serif" font-size="9.00">settings</text>
+<polygon fill="none" stroke="#333333" points="517.5,-1073 517.5,-1089 553.5,-1089 553.5,-1073 517.5,-1073"></polygon>
+<text text-anchor="start" x="520.5" y="-1077.9" font-family="Helvetica,sans-Serif" font-size="9.00">int</text>
+<polygon fill="none" stroke="#333333" points="553.5,-1073 553.5,-1089 627.5,-1089 627.5,-1073 553.5,-1073"></polygon>
+<text text-anchor="start" x="556.5" y="-1077.9" font-family="Helvetica,sans-Serif" font-size="9.00">protected</text>
+<polygon fill="none" stroke="#333333" points="517.5,-1057 517.5,-1073 553.5,-1073 553.5,-1057 517.5,-1057"></polygon>
+<text text-anchor="start" x="520.5" y="-1061.9" font-family="Helvetica,sans-Serif" font-size="9.00">int</text>
+<polygon fill="none" stroke="#333333" points="553.5,-1057 553.5,-1073 627.5,-1073 627.5,-1057 553.5,-1057"></polygon>
+<text text-anchor="start" x="556.5" y="-1061.9" font-family="Helvetica,sans-Serif" font-size="9.00">enabled</text>
+<polygon fill="none" stroke="#333333" points="517.5,-1041 517.5,-1057 553.5,-1057 553.5,-1041 517.5,-1041"></polygon>
+<text text-anchor="start" x="520.5" y="-1045.9" font-family="Helvetica,sans-Serif" font-size="9.00">int</text>
+<polygon fill="none" stroke="#333333" points="553.5,-1041 553.5,-1057 627.5,-1057 627.5,-1041 553.5,-1041"></polygon>
+<text text-anchor="start" x="556.5" y="-1045.9" font-family="Helvetica,sans-Serif" font-size="9.00">enablefrom</text>
+<polygon fill="none" stroke="#333333" points="517.5,-1025 517.5,-1041 553.5,-1041 553.5,-1025 517.5,-1025"></polygon>
+<text text-anchor="start" x="520.5" y="-1029.9" font-family="Helvetica,sans-Serif" font-size="9.00">int</text>
+<polygon fill="none" stroke="#333333" points="553.5,-1025 553.5,-1041 627.5,-1041 627.5,-1025 553.5,-1025"></polygon>
+<text text-anchor="start" x="556.5" y="-1029.9" font-family="Helvetica,sans-Serif" font-size="9.00">enableuntil</text>
+<polygon fill="none" stroke="#333333" points="517.5,-1009 517.5,-1025 553.5,-1025 553.5,-1009 517.5,-1009"></polygon>
+<text text-anchor="start" x="520.5" y="-1013.9" font-family="Helvetica,sans-Serif" font-size="9.00">int</text>
+<polygon fill="none" stroke="#333333" points="553.5,-1009 553.5,-1025 627.5,-1025 627.5,-1009 553.5,-1009"></polygon>
+<text text-anchor="start" x="556.5" y="-1013.9" font-family="Helvetica,sans-Serif" font-size="9.00">lastaccess</text>
+<polygon fill="none" stroke="#333333" points="517.5,-993 517.5,-1009 553.5,-1009 553.5,-993 517.5,-993"></polygon>
+<text text-anchor="start" x="520.5" y="-997.9" font-family="Helvetica,sans-Serif" font-size="9.00">int</text>
+<polygon fill="none" stroke="#333333" points="553.5,-993 553.5,-1009 627.5,-1009 627.5,-993 553.5,-993"></polygon>
+<text text-anchor="start" x="556.5" y="-997.9" font-family="Helvetica,sans-Serif" font-size="9.00">created</text>
+<polygon fill="none" stroke="#333333" points="517.5,-977 517.5,-993 553.5,-993 553.5,-977 517.5,-977"></polygon>
+<text text-anchor="start" x="520.5" y="-981.9" font-family="Helvetica,sans-Serif" font-size="9.00">int</text>
+<polygon fill="none" stroke="#333333" points="553.5,-977 553.5,-993 627.5,-993 627.5,-977 553.5,-977"></polygon>
+<text text-anchor="start" x="556.5" y="-981.9" font-family="Helvetica,sans-Serif" font-size="9.00">updated</text>
+</g>
+<!-- enrol_ct_lti2_tool_proxy -->
+<g id="node8" class="node">
+<title>enrol_ct_lti2_tool_proxy</title>
+<polygon fill="white" stroke="none" points="371,-1385 270,-1385 270,-1273 371,-1273 371,-1385"></polygon>
+<polygon fill="lightblue" stroke="none" points="270,-1369 270,-1385 371,-1385 371,-1369 270,-1369"></polygon>
+<polygon fill="none" stroke="#333333" points="270,-1369 270,-1385 371,-1385 371,-1369 270,-1369"></polygon>
+<text text-anchor="start" x="272.97" y="-1373.9" font-family="Helvetica,sans-Serif" font-size="9.00">enrol_ct_lti2_tool_proxy</text>
+<polygon fill="none" stroke="#333333" points="270,-1353 270,-1369 310,-1369 310,-1353 270,-1353"></polygon>
+<text text-anchor="start" x="273" y="-1357.9" font-family="Helvetica,sans-Serif" font-size="9.00">int</text>
+<polygon fill="none" stroke="#333333" points="310,-1353 310,-1369 371,-1369 371,-1353 310,-1353"></polygon>
+<text text-anchor="start" x="313" y="-1357.9" font-family="Helvetica,sans-Serif" font-size="9.00">id</text>
+<polygon fill="none" stroke="#333333" points="270,-1337 270,-1353 310,-1353 310,-1337 270,-1337"></polygon>
+<text text-anchor="start" x="273" y="-1341.9" font-family="Helvetica,sans-Serif" font-size="9.00">varchar</text>
+<polygon fill="none" stroke="#333333" points="310,-1337 310,-1353 371,-1353 371,-1337 310,-1337"></polygon>
+<text text-anchor="start" x="313" y="-1341.9" font-family="Helvetica,sans-Serif" font-size="9.00">toolproxykey</text>
+<polygon fill="none" stroke="#333333" points="270,-1321 270,-1337 310,-1337 310,-1321 270,-1321"></polygon>
+<text text-anchor="start" x="273" y="-1325.9" font-family="Helvetica,sans-Serif" font-size="9.00">int</text>
+<polygon fill="none" stroke="#333333" points="310,-1321 310,-1337 371,-1337 371,-1321 310,-1321"></polygon>
+<text text-anchor="start" x="313" y="-1325.9" font-family="Helvetica,sans-Serif" font-size="9.00">consumerid</text>
+<polygon fill="none" stroke="#333333" points="270,-1305 270,-1321 310,-1321 310,-1305 270,-1305"></polygon>
+<text text-anchor="start" x="273" y="-1309.9" font-family="Helvetica,sans-Serif" font-size="9.00">text</text>
+<polygon fill="none" stroke="#333333" points="310,-1305 310,-1321 371,-1321 371,-1305 310,-1305"></polygon>
+<text text-anchor="start" x="313" y="-1309.9" font-family="Helvetica,sans-Serif" font-size="9.00">toolproxy</text>
+<polygon fill="none" stroke="#333333" points="270,-1289 270,-1305 310,-1305 310,-1289 270,-1289"></polygon>
+<text text-anchor="start" x="273" y="-1293.9" font-family="Helvetica,sans-Serif" font-size="9.00">int</text>
+<polygon fill="none" stroke="#333333" points="310,-1289 310,-1305 371,-1305 371,-1289 310,-1289"></polygon>
+<text text-anchor="start" x="313" y="-1293.9" font-family="Helvetica,sans-Serif" font-size="9.00">created</text>
+<polygon fill="none" stroke="#333333" points="270,-1273 270,-1289 310,-1289 310,-1273 270,-1273"></polygon>
+<text text-anchor="start" x="273" y="-1277.9" font-family="Helvetica,sans-Serif" font-size="9.00">int</text>
+<polygon fill="none" stroke="#333333" points="310,-1273 310,-1289 371,-1289 371,-1273 310,-1273"></polygon>
+<text text-anchor="start" x="313" y="-1277.9" font-family="Helvetica,sans-Serif" font-size="9.00">updated</text>
+</g>
+<!-- enrol_ct_lti2_tool_proxy&#45;&gt;enrol_ct_lti2_consumer -->
+<g id="edge6" class="edge">
+<title>enrol_ct_lti2_tool_proxy:outconsumerid-&gt;enrol_ct_lti2_consumer:inid</title>
+<path fill="none" stroke="black" d="M372.5,-1329C437.15,-1329 446.84,-1279.37 505.04,-1273.55"></path>
+<polygon fill="black" stroke="black" points="505.17,-1277.05 514.99,-1273.07 504.83,-1270.06 505.17,-1277.05"></polygon>
+</g>
+<!-- enrol_ct_lti2_context -->
+<g id="node9" class="node">
+<title>enrol_ct_lti2_context</title>
+<polygon fill="white" stroke="none" points="366,-1135 275,-1135 275,-1007 366,-1007 366,-1135"></polygon>
+<polygon fill="lightblue" stroke="none" points="275,-1119 275,-1135 366,-1135 366,-1119 275,-1119"></polygon>
+<polygon fill="none" stroke="#333333" points="275,-1119 275,-1135 366,-1135 366,-1119 275,-1119"></polygon>
+<text text-anchor="start" x="279.22" y="-1123.9" font-family="Helvetica,sans-Serif" font-size="9.00">enrol_ct_lti2_context</text>
+<polygon fill="none" stroke="#333333" points="275,-1103 275,-1119 311,-1119 311,-1103 275,-1103"></polygon>
+<text text-anchor="start" x="278" y="-1107.9" font-family="Helvetica,sans-Serif" font-size="9.00">int</text>
+<polygon fill="none" stroke="#333333" points="311,-1103 311,-1119 366,-1119 366,-1103 311,-1103"></polygon>
+<text text-anchor="start" x="314" y="-1107.9" font-family="Helvetica,sans-Serif" font-size="9.00">id</text>
+<polygon fill="none" stroke="#333333" points="275,-1087 275,-1103 311,-1103 311,-1087 275,-1087"></polygon>
+<text text-anchor="start" x="278" y="-1091.9" font-family="Helvetica,sans-Serif" font-size="9.00">int</text>
+<polygon fill="none" stroke="#333333" points="311,-1087 311,-1103 366,-1103 366,-1087 311,-1087"></polygon>
+<text text-anchor="start" x="314" y="-1091.9" font-family="Helvetica,sans-Serif" font-size="9.00">consumerid</text>
+<polygon fill="none" stroke="#333333" points="275,-1071 275,-1087 311,-1087 311,-1071 275,-1071"></polygon>
+<text text-anchor="start" x="277.99" y="-1075.9" font-family="Helvetica,sans-Serif" font-size="9.00">varchar</text>
+<polygon fill="none" stroke="#333333" points="311,-1071 311,-1087 366,-1087 366,-1071 311,-1071"></polygon>
+<text text-anchor="start" x="313.74" y="-1075.9" font-family="Helvetica,sans-Serif" font-size="9.00">lticontextkey</text>
+<polygon fill="none" stroke="#333333" points="275,-1055 275,-1071 311,-1071 311,-1055 275,-1055"></polygon>
+<text text-anchor="start" x="277.99" y="-1059.9" font-family="Helvetica,sans-Serif" font-size="9.00">varchar</text>
+<polygon fill="none" stroke="#333333" points="311,-1055 311,-1071 366,-1071 366,-1055 311,-1055"></polygon>
+<text text-anchor="start" x="314" y="-1059.9" font-family="Helvetica,sans-Serif" font-size="9.00">type</text>
+<polygon fill="none" stroke="#333333" points="275,-1039 275,-1055 311,-1055 311,-1039 275,-1039"></polygon>
+<text text-anchor="start" x="278" y="-1043.9" font-family="Helvetica,sans-Serif" font-size="9.00">text</text>
+<polygon fill="none" stroke="#333333" points="311,-1039 311,-1055 366,-1055 366,-1039 311,-1039"></polygon>
+<text text-anchor="start" x="314" y="-1043.9" font-family="Helvetica,sans-Serif" font-size="9.00">settings</text>
+<polygon fill="none" stroke="#333333" points="275,-1023 275,-1039 311,-1039 311,-1023 275,-1023"></polygon>
+<text text-anchor="start" x="278" y="-1027.9" font-family="Helvetica,sans-Serif" font-size="9.00">int</text>
+<polygon fill="none" stroke="#333333" points="311,-1023 311,-1039 366,-1039 366,-1023 311,-1023"></polygon>
+<text text-anchor="start" x="314" y="-1027.9" font-family="Helvetica,sans-Serif" font-size="9.00">created</text>
+<polygon fill="none" stroke="#333333" points="275,-1007 275,-1023 311,-1023 311,-1007 275,-1007"></polygon>
+<text text-anchor="start" x="278" y="-1011.9" font-family="Helvetica,sans-Serif" font-size="9.00">int</text>
+<polygon fill="none" stroke="#333333" points="311,-1007 311,-1023 366,-1023 366,-1007 311,-1007"></polygon>
+<text text-anchor="start" x="314" y="-1011.9" font-family="Helvetica,sans-Serif" font-size="9.00">updated</text>
+</g>
+<!-- enrol_ct_lti2_context&#45;&gt;enrol_ct_lti2_consumer -->
+<g id="edge7" class="edge">
+<title>enrol_ct_lti2_context:outconsumerid-&gt;enrol_ct_lti2_consumer:inid</title>
+<path fill="none" stroke="black" d="M367.5,-1095C415.36,-1095 458.26,-1248.2 505.4,-1270.35"></path>
+<polygon fill="black" stroke="black" points="504.49,-1273.73 515.03,-1272.65 506.12,-1266.92 504.49,-1273.73"></polygon>
+</g>
+<!-- enrol_ct_lti2_nonce -->
+<g id="node10" class="node">
+<title>enrol_ct_lti2_nonce</title>
+<polygon fill="white" stroke="none" points="364.5,-1244 276.5,-1244 276.5,-1164 364.5,-1164 364.5,-1244"></polygon>
+<polygon fill="lightblue" stroke="none" points="276.5,-1228 276.5,-1244 364.5,-1244 364.5,-1228 276.5,-1228"></polygon>
+<polygon fill="none" stroke="#333333" points="276.5,-1228 276.5,-1244 364.5,-1244 364.5,-1228 276.5,-1228"></polygon>
+<text text-anchor="start" x="281.47" y="-1232.9" font-family="Helvetica,sans-Serif" font-size="9.00">enrol_ct_lti2_nonce</text>
+<polygon fill="none" stroke="#333333" points="276.5,-1212 276.5,-1228 312.5,-1228 312.5,-1212 276.5,-1212"></polygon>
+<text text-anchor="start" x="279.5" y="-1216.9" font-family="Helvetica,sans-Serif" font-size="9.00">int</text>
+<polygon fill="none" stroke="#333333" points="312.5,-1212 312.5,-1228 364.5,-1228 364.5,-1212 312.5,-1212"></polygon>
+<text text-anchor="start" x="315.5" y="-1216.9" font-family="Helvetica,sans-Serif" font-size="9.00">id</text>
+<polygon fill="none" stroke="#333333" points="276.5,-1196 276.5,-1212 312.5,-1212 312.5,-1196 276.5,-1196"></polygon>
+<text text-anchor="start" x="279.5" y="-1200.9" font-family="Helvetica,sans-Serif" font-size="9.00">int</text>
+<polygon fill="none" stroke="#333333" points="312.5,-1196 312.5,-1212 364.5,-1212 364.5,-1196 312.5,-1196"></polygon>
+<text text-anchor="start" x="315.24" y="-1200.9" font-family="Helvetica,sans-Serif" font-size="9.00">consumerid</text>
+<polygon fill="none" stroke="#333333" points="276.5,-1180 276.5,-1196 312.5,-1196 312.5,-1180 276.5,-1180"></polygon>
+<text text-anchor="start" x="279.49" y="-1184.9" font-family="Helvetica,sans-Serif" font-size="9.00">varchar</text>
+<polygon fill="none" stroke="#333333" points="312.5,-1180 312.5,-1196 364.5,-1196 364.5,-1180 312.5,-1180"></polygon>
+<text text-anchor="start" x="315.5" y="-1184.9" font-family="Helvetica,sans-Serif" font-size="9.00">value</text>
+<polygon fill="none" stroke="#333333" points="276.5,-1164 276.5,-1180 312.5,-1180 312.5,-1164 276.5,-1164"></polygon>
+<text text-anchor="start" x="279.5" y="-1168.9" font-family="Helvetica,sans-Serif" font-size="9.00">int</text>
+<polygon fill="none" stroke="#333333" points="312.5,-1164 312.5,-1180 364.5,-1180 364.5,-1164 312.5,-1164"></polygon>
+<text text-anchor="start" x="315.5" y="-1168.9" font-family="Helvetica,sans-Serif" font-size="9.00">expires</text>
+</g>
+<!-- enrol_ct_lti2_nonce&#45;&gt;enrol_ct_lti2_consumer -->
+<g id="edge8" class="edge">
+<title>enrol_ct_lti2_nonce:outconsumerid-&gt;enrol_ct_lti2_consumer:inid</title>
+<path fill="none" stroke="black" d="M365.5,-1204C435.25,-1204 442.13,-1265.66 505,-1272.4"></path>
+<polygon fill="black" stroke="black" points="504.82,-1275.9 514.99,-1272.92 505.18,-1268.91 504.82,-1275.9"></polygon>
+</g>
+<!-- enrol_ct_lti2_resource_link -->
+<g id="node11" class="node">
+<title>enrol_ct_lti2_resource_link</title>
+<polygon fill="white" stroke="none" points="143,-1033 16,-1033 16,-873 143,-873 143,-1033"></polygon>
+<polygon fill="lightblue" stroke="none" points="16,-1017 16,-1033 143,-1033 143,-1017 16,-1017"></polygon>
+<polygon fill="none" stroke="#333333" points="16,-1017 16,-1033 143,-1033 143,-1017 16,-1017"></polygon>
+<text text-anchor="start" x="25.97" y="-1021.9" font-family="Helvetica,sans-Serif" font-size="9.00">enrol_ct_lti2_resource_link</text>
+<polygon fill="none" stroke="#333333" points="16,-1001 16,-1017 52,-1017 52,-1001 16,-1001"></polygon>
+<text text-anchor="start" x="19" y="-1005.9" font-family="Helvetica,sans-Serif" font-size="9.00">int</text>
+<polygon fill="none" stroke="#333333" points="52,-1001 52,-1017 143,-1017 143,-1001 52,-1001"></polygon>
+<text text-anchor="start" x="55" y="-1005.9" font-family="Helvetica,sans-Serif" font-size="9.00">id</text>
+<polygon fill="none" stroke="#333333" points="16,-985 16,-1001 52,-1001 52,-985 16,-985"></polygon>
+<text text-anchor="start" x="19" y="-989.9" font-family="Helvetica,sans-Serif" font-size="9.00">int</text>
+<polygon fill="none" stroke="#333333" points="52,-985 52,-1001 143,-1001 143,-985 52,-985"></polygon>
+<text text-anchor="start" x="55" y="-989.9" font-family="Helvetica,sans-Serif" font-size="9.00">contextid</text>
+<polygon fill="none" stroke="#333333" points="16,-969 16,-985 52,-985 52,-969 16,-969"></polygon>
+<text text-anchor="start" x="19" y="-973.9" font-family="Helvetica,sans-Serif" font-size="9.00">int</text>
+<polygon fill="none" stroke="#333333" points="52,-969 52,-985 143,-985 143,-969 52,-969"></polygon>
+<text text-anchor="start" x="55" y="-973.9" font-family="Helvetica,sans-Serif" font-size="9.00">consumerid</text>
+<polygon fill="none" stroke="#333333" points="16,-953 16,-969 52,-969 52,-953 16,-953"></polygon>
+<text text-anchor="start" x="18.99" y="-957.9" font-family="Helvetica,sans-Serif" font-size="9.00">varchar</text>
+<polygon fill="none" stroke="#333333" points="52,-953 52,-969 143,-969 143,-953 52,-953"></polygon>
+<text text-anchor="start" x="55" y="-957.9" font-family="Helvetica,sans-Serif" font-size="9.00">ltiresourcelinkkey</text>
+<polygon fill="none" stroke="#333333" points="16,-937 16,-953 52,-953 52,-937 16,-937"></polygon>
+<text text-anchor="start" x="19" y="-941.9" font-family="Helvetica,sans-Serif" font-size="9.00">text</text>
+<polygon fill="none" stroke="#333333" points="52,-937 52,-953 143,-953 143,-937 52,-937"></polygon>
+<text text-anchor="start" x="55" y="-941.9" font-family="Helvetica,sans-Serif" font-size="9.00">settings</text>
+<polygon fill="none" stroke="#333333" points="16,-921 16,-937 52,-937 52,-921 16,-921"></polygon>
+<text text-anchor="start" x="19" y="-925.9" font-family="Helvetica,sans-Serif" font-size="9.00">int</text>
+<polygon fill="none" stroke="#333333" points="52,-921 52,-937 143,-937 143,-921 52,-921"></polygon>
+<text text-anchor="start" x="54.74" y="-925.9" font-family="Helvetica,sans-Serif" font-size="9.00">primaryresourcelinkid</text>
+<polygon fill="none" stroke="#333333" points="16,-905 16,-921 52,-921 52,-905 16,-905"></polygon>
+<text text-anchor="start" x="19" y="-909.9" font-family="Helvetica,sans-Serif" font-size="9.00">int</text>
+<polygon fill="none" stroke="#333333" points="52,-905 52,-921 143,-921 143,-905 52,-905"></polygon>
+<text text-anchor="start" x="55" y="-909.9" font-family="Helvetica,sans-Serif" font-size="9.00">shareapproved</text>
+<polygon fill="none" stroke="#333333" points="16,-889 16,-905 52,-905 52,-889 16,-889"></polygon>
+<text text-anchor="start" x="19" y="-893.9" font-family="Helvetica,sans-Serif" font-size="9.00">int</text>
+<polygon fill="none" stroke="#333333" points="52,-889 52,-905 143,-905 143,-889 52,-889"></polygon>
+<text text-anchor="start" x="55" y="-893.9" font-family="Helvetica,sans-Serif" font-size="9.00">created</text>
+<polygon fill="none" stroke="#333333" points="16,-873 16,-889 52,-889 52,-873 16,-873"></polygon>
+<text text-anchor="start" x="19" y="-877.9" font-family="Helvetica,sans-Serif" font-size="9.00">int</text>
+<polygon fill="none" stroke="#333333" points="52,-873 52,-889 143,-889 143,-873 52,-873"></polygon>
+<text text-anchor="start" x="55" y="-877.9" font-family="Helvetica,sans-Serif" font-size="9.00">updated</text>
+</g>
+<!-- enrol_ct_lti2_resource_link&#45;&gt;enrol_ct_lti2_consumer -->
+<g id="edge11" class="edge">
+<title>enrol_ct_lti2_resource_link:outconsumerid-&gt;enrol_ct_lti2_consumer:inid</title>
+<path fill="none" stroke="black" d="M143,-977C197.56,-977 343.06,-962.06 388,-993 441.2,-1029.62 447.46,-1246.33 505.47,-1270.76"></path>
+<polygon fill="black" stroke="black" points="504.52,-1274.14 515.02,-1272.7 505.91,-1267.28 504.52,-1274.14"></polygon>
+</g>
+<!-- enrol_ct_lti2_resource_link&#45;&gt;enrol_ct_lti2_context -->
+<g id="edge9" class="edge">
+<title>enrol_ct_lti2_resource_link:outcontextid-&gt;enrol_ct_lti2_context:inid</title>
+<path fill="none" stroke="black" d="M143,-993C217.22,-993 197.67,-1099.32 262.37,-1110.12"></path>
+<polygon fill="black" stroke="black" points="261.75,-1113.58 271.99,-1110.88 262.3,-1106.6 261.75,-1113.58"></polygon>
+</g>
+<!-- enrol_ct_lti2_res_link -->
+<g id="node12" class="node">
+<title>enrol_ct_lti2_res_link</title>
+<polygon fill="white" stroke="none" points="864.27,-117 770.73,-117 770.73,-81 864.27,-81 864.27,-117"></polygon>
+<polygon fill="orange" stroke="none" points="770.73,-89.6 770.73,-108.4 864.27,-108.4 864.27,-89.6 770.73,-89.6"></polygon>
+<polygon fill="none" stroke="#333333" points="770.73,-89.6 770.73,-108.4 864.27,-108.4 864.27,-89.6 770.73,-89.6"></polygon>
+<text text-anchor="start" x="775.23" y="-96.3" font-family="Helvetica,sans-Serif" font-size="9.00">enrol_ct_lti2_res_link</text>
+</g>
+<!-- enrol_ct_lti2_resource_link&#45;&gt;enrol_ct_lti2_res_link -->
+<g id="edge10" class="edge">
+<title>enrol_ct_lti2_resource_link:outprimaryresourcelinkid-&gt;enrol_ct_lti2_res_link</title>
+<path fill="none" stroke="black" d="M143,-929C298.07,-929 60.93,-235 216,-235 216,-235 216,-235 684,-235 740.11,-235 715.2,-169.43 757,-132 760.56,-128.81 764.49,-125.8 768.57,-123"></path>
+<polygon fill="black" stroke="black" points="770.44,-125.96 777.01,-117.65 766.69,-120.05 770.44,-125.96"></polygon>
+</g>
+<!-- enrol_ct_lti2_share_key -->
+<g id="node13" class="node">
+<title>enrol_ct_lti2_share_key</title>
+<polygon fill="white" stroke="none" points="130,-691 29,-691 29,-595 130,-595 130,-691"></polygon>
+<polygon fill="lightblue" stroke="none" points="29,-675 29,-691 130,-691 130,-675 29,-675"></polygon>
+<polygon fill="none" stroke="#333333" points="29,-675 29,-691 130,-691 130,-675 29,-675"></polygon>
+<text text-anchor="start" x="31.97" y="-679.9" font-family="Helvetica,sans-Serif" font-size="9.00">enrol_ct_lti2_share_key</text>
+<polygon fill="none" stroke="#333333" points="29,-659 29,-675 67,-675 67,-659 29,-659"></polygon>
+<text text-anchor="start" x="32" y="-663.9" font-family="Helvetica,sans-Serif" font-size="9.00">int</text>
+<polygon fill="none" stroke="#333333" points="67,-659 67,-675 130,-675 130,-659 67,-659"></polygon>
+<text text-anchor="start" x="70" y="-663.9" font-family="Helvetica,sans-Serif" font-size="9.00">id</text>
+<polygon fill="none" stroke="#333333" points="29,-643 29,-659 67,-659 67,-643 29,-643"></polygon>
+<text text-anchor="start" x="32" y="-647.9" font-family="Helvetica,sans-Serif" font-size="9.00">varchar</text>
+<polygon fill="none" stroke="#333333" points="67,-643 67,-659 130,-659 130,-643 67,-643"></polygon>
+<text text-anchor="start" x="70" y="-647.9" font-family="Helvetica,sans-Serif" font-size="9.00">sharekey</text>
+<polygon fill="none" stroke="#333333" points="29,-627 29,-643 67,-643 67,-627 29,-627"></polygon>
+<text text-anchor="start" x="32" y="-631.9" font-family="Helvetica,sans-Serif" font-size="9.00">int</text>
+<polygon fill="none" stroke="#333333" points="67,-627 67,-643 130,-643 130,-627 67,-627"></polygon>
+<text text-anchor="start" x="70" y="-631.9" font-family="Helvetica,sans-Serif" font-size="9.00">resourcelinkid</text>
+<polygon fill="none" stroke="#333333" points="29,-611 29,-627 67,-627 67,-611 29,-611"></polygon>
+<text text-anchor="start" x="32" y="-615.9" font-family="Helvetica,sans-Serif" font-size="9.00">int</text>
+<polygon fill="none" stroke="#333333" points="67,-611 67,-627 130,-627 130,-611 67,-611"></polygon>
+<text text-anchor="start" x="70" y="-615.9" font-family="Helvetica,sans-Serif" font-size="9.00">autoapprove</text>
+<polygon fill="none" stroke="#333333" points="29,-595 29,-611 67,-611 67,-595 29,-595"></polygon>
+<text text-anchor="start" x="32" y="-599.9" font-family="Helvetica,sans-Serif" font-size="9.00">int</text>
+<polygon fill="none" stroke="#333333" points="67,-595 67,-611 130,-611 130,-595 67,-595"></polygon>
+<text text-anchor="start" x="70" y="-599.9" font-family="Helvetica,sans-Serif" font-size="9.00">expires</text>
+</g>
+<!-- enrol_ct_lti2_share_key&#45;&gt;enrol_ct_lti2_res_link -->
+<g id="edge12" class="edge">
+<title>enrol_ct_lti2_share_key:outresourcelinkid-&gt;enrol_ct_lti2_res_link</title>
+<path fill="none" stroke="black" d="M131.5,-635C237.4,-635 110.1,-166 216,-166 216,-166 216,-166 684,-166 688.98,-166 736.19,-141.6 772.86,-122.25"></path>
+<polygon fill="black" stroke="black" points="774.34,-125.43 781.54,-117.66 771.07,-119.24 774.34,-125.43"></polygon>
+</g>
+<!-- enrol_ct_lti2_user_result -->
+<g id="node14" class="node">
+<title>enrol_ct_lti2_user_result</title>
+<polygon fill="white" stroke="none" points="134,-566 25,-566 25,-454 134,-454 134,-566"></polygon>
+<polygon fill="lightblue" stroke="none" points="25,-550 25,-566 134,-566 134,-550 25,-550"></polygon>
+<polygon fill="none" stroke="#333333" points="25,-550 25,-566 134,-566 134,-550 25,-550"></polygon>
+<text text-anchor="start" x="30.47" y="-554.9" font-family="Helvetica,sans-Serif" font-size="9.00">enrol_ct_lti2_user_result</text>
+<polygon fill="none" stroke="#333333" points="25,-534 25,-550 61,-550 61,-534 25,-534"></polygon>
+<text text-anchor="start" x="28" y="-538.9" font-family="Helvetica,sans-Serif" font-size="9.00">int</text>
+<polygon fill="none" stroke="#333333" points="61,-534 61,-550 134,-550 134,-534 61,-534"></polygon>
+<text text-anchor="start" x="64" y="-538.9" font-family="Helvetica,sans-Serif" font-size="9.00">id</text>
+<polygon fill="none" stroke="#333333" points="25,-518 25,-534 61,-534 61,-518 25,-518"></polygon>
+<text text-anchor="start" x="28" y="-522.9" font-family="Helvetica,sans-Serif" font-size="9.00">int</text>
+<polygon fill="none" stroke="#333333" points="61,-518 61,-534 134,-534 134,-518 61,-518"></polygon>
+<text text-anchor="start" x="64" y="-522.9" font-family="Helvetica,sans-Serif" font-size="9.00">resourcelinkid</text>
+<polygon fill="none" stroke="#333333" points="25,-502 25,-518 61,-518 61,-502 25,-502"></polygon>
+<text text-anchor="start" x="27.99" y="-506.9" font-family="Helvetica,sans-Serif" font-size="9.00">varchar</text>
+<polygon fill="none" stroke="#333333" points="61,-502 61,-518 134,-518 134,-502 61,-502"></polygon>
+<text text-anchor="start" x="64" y="-506.9" font-family="Helvetica,sans-Serif" font-size="9.00">ltiuserkey</text>
+<polygon fill="none" stroke="#333333" points="25,-486 25,-502 61,-502 61,-486 25,-486"></polygon>
+<text text-anchor="start" x="27.99" y="-490.9" font-family="Helvetica,sans-Serif" font-size="9.00">varchar</text>
+<polygon fill="none" stroke="#333333" points="61,-486 61,-502 134,-502 134,-486 61,-486"></polygon>
+<text text-anchor="start" x="63.73" y="-490.9" font-family="Helvetica,sans-Serif" font-size="9.00">ltiresultsourcedid</text>
+<polygon fill="none" stroke="#333333" points="25,-470 25,-486 61,-486 61,-470 25,-470"></polygon>
+<text text-anchor="start" x="28" y="-474.9" font-family="Helvetica,sans-Serif" font-size="9.00">int</text>
+<polygon fill="none" stroke="#333333" points="61,-470 61,-486 134,-486 134,-470 61,-470"></polygon>
+<text text-anchor="start" x="64" y="-474.9" font-family="Helvetica,sans-Serif" font-size="9.00">created</text>
+<polygon fill="none" stroke="#333333" points="25,-454 25,-470 61,-470 61,-454 25,-454"></polygon>
+<text text-anchor="start" x="28" y="-458.9" font-family="Helvetica,sans-Serif" font-size="9.00">int</text>
+<polygon fill="none" stroke="#333333" points="61,-454 61,-470 134,-470 134,-454 61,-454"></polygon>
+<text text-anchor="start" x="64" y="-458.9" font-family="Helvetica,sans-Serif" font-size="9.00">updated</text>
+</g>
+<!-- enrol_ct_lti2_user_result&#45;&gt;enrol_ct_lti2_res_link -->
+<g id="edge13" class="edge">
+<title>enrol_ct_lti2_user_result:outresourcelinkid-&gt;enrol_ct_lti2_res_link</title>
+<path fill="none" stroke="black" d="M135.5,-526C220.94,-526 144.33,-222.09 179,-144 189.09,-121.26 191.12,-102 216,-102 216,-102 216,-102 684,-102 708.7,-102 735.99,-101.47 759.35,-100.86"></path>
+<polygon fill="black" stroke="black" points="759.41,-104.36 769.31,-100.59 759.22,-97.36 759.41,-104.36"></polygon>
+</g>
+<!-- enrol_ct_tool_cons_map -->
+<g id="node15" class="node">
+<title>enrol_ct_tool_cons_map</title>
+<polygon fill="white" stroke="none" points="372.5,-678 268.5,-678 268.5,-614 372.5,-614 372.5,-678"></polygon>
+<polygon fill="lightblue" stroke="none" points="268.5,-662 268.5,-678 372.5,-678 372.5,-662 268.5,-662"></polygon>
+<polygon fill="none" stroke="#333333" points="268.5,-662 268.5,-678 372.5,-678 372.5,-662 268.5,-662"></polygon>
+<text text-anchor="start" x="271.47" y="-666.9" font-family="Helvetica,sans-Serif" font-size="9.00">enrol_ct_tool_cons_map</text>
+<polygon fill="none" stroke="#333333" points="268.5,-646 268.5,-662 301.5,-662 301.5,-646 268.5,-646"></polygon>
+<text text-anchor="start" x="271.5" y="-650.9" font-family="Helvetica,sans-Serif" font-size="9.00">int</text>
+<polygon fill="none" stroke="#333333" points="301.5,-646 301.5,-662 372.5,-662 372.5,-646 301.5,-646"></polygon>
+<text text-anchor="start" x="304.5" y="-650.9" font-family="Helvetica,sans-Serif" font-size="9.00">id</text>
+<polygon fill="none" stroke="#333333" points="268.5,-630 268.5,-646 301.5,-646 301.5,-630 268.5,-630"></polygon>
+<text text-anchor="start" x="271.5" y="-634.9" font-family="Helvetica,sans-Serif" font-size="9.00">int</text>
+<polygon fill="none" stroke="#333333" points="301.5,-630 301.5,-646 372.5,-646 372.5,-630 301.5,-630"></polygon>
+<text text-anchor="start" x="304.5" y="-634.9" font-family="Helvetica,sans-Serif" font-size="9.00">toolid</text>
+<polygon fill="none" stroke="#333333" points="268.5,-614 268.5,-630 301.5,-630 301.5,-614 268.5,-614"></polygon>
+<text text-anchor="start" x="271.5" y="-618.9" font-family="Helvetica,sans-Serif" font-size="9.00">int</text>
+<polygon fill="none" stroke="#333333" points="301.5,-614 301.5,-630 372.5,-630 372.5,-614 301.5,-614"></polygon>
+<text text-anchor="start" x="304.5" y="-618.9" font-family="Helvetica,sans-Serif" font-size="9.00">consumerid</text>
+</g>
+<!-- enrol_ct_tool_cons_map&#45;&gt;enrol_ct_tools -->
+<g id="edge14" class="edge">
+<title>enrol_ct_tool_cons_map:outtoolid-&gt;enrol_ct_tools:inid</title>
+<path fill="none" stroke="black" d="M373.5,-638C425.3,-638 414.16,-692.88 461,-715 472.06,-720.22 477.85,-721.01 486.74,-721.06"></path>
+<polygon fill="black" stroke="black" points="486.51,-724.56 496.49,-721.01 486.47,-717.56 486.51,-724.56"></polygon>
+</g>
+<!-- enrol_ct_tool_cons_map&#45;&gt;enrol_ct_lti2_consumer -->
+<g id="edge15" class="edge">
+<title>enrol_ct_tool_cons_map:outconsumerid-&gt;enrol_ct_lti2_consumer:inid</title>
+<path fill="none" stroke="black" d="M373.5,-622C393.45,-622 457.77,-950.5 462,-970 475.65,-1032.94 451.27,-1245.91 505.44,-1270.65"></path>
+<polygon fill="black" stroke="black" points="504.51,-1274.03 515.02,-1272.69 505.97,-1267.18 504.51,-1274.03"></polygon>
+</g>
+<!-- enrol_ct_resource_link -->
+<g id="node17" class="node">
+<title>enrol_ct_resource_link</title>
+<polygon fill="white" stroke="none" points="388,-947 253,-947 253,-707 388,-707 388,-947"></polygon>
+<polygon fill="lightblue" stroke="none" points="253,-931 253,-947 388,-947 388,-931 253,-931"></polygon>
+<polygon fill="none" stroke="#333333" points="253,-931 253,-947 388,-947 388,-931 253,-931"></polygon>
+<text text-anchor="start" x="275.23" y="-935.9" font-family="Helvetica,sans-Serif" font-size="9.00">enrol_ct_resource_link</text>
+<polygon fill="none" stroke="#333333" points="253,-915 253,-931 289,-931 289,-915 253,-915"></polygon>
+<text text-anchor="start" x="256" y="-919.9" font-family="Helvetica,sans-Serif" font-size="9.00">int</text>
+<polygon fill="none" stroke="#333333" points="289,-915 289,-931 388,-931 388,-915 289,-915"></polygon>
+<text text-anchor="start" x="292" y="-919.9" font-family="Helvetica,sans-Serif" font-size="9.00">id</text>
+<polygon fill="none" stroke="#333333" points="253,-899 253,-915 289,-915 289,-899 253,-899"></polygon>
+<text text-anchor="start" x="255.99" y="-903.9" font-family="Helvetica,sans-Serif" font-size="9.00">varchar</text>
+<polygon fill="none" stroke="#333333" points="289,-899 289,-915 388,-915 388,-899 289,-899"></polygon>
+<text text-anchor="start" x="292" y="-903.9" font-family="Helvetica,sans-Serif" font-size="9.00">resourcelinkid</text>
+<polygon fill="none" stroke="#333333" points="253,-883 253,-899 289,-899 289,-883 253,-883"></polygon>
+<text text-anchor="start" x="256" y="-887.9" font-family="Helvetica,sans-Serif" font-size="9.00">int</text>
+<polygon fill="none" stroke="#333333" points="289,-883 289,-899 388,-899 388,-883 289,-883"></polygon>
+<text text-anchor="start" x="292" y="-887.9" font-family="Helvetica,sans-Serif" font-size="9.00">ltideploymentid</text>
+<polygon fill="none" stroke="#333333" points="253,-867 253,-883 289,-883 289,-867 253,-867"></polygon>
+<text text-anchor="start" x="256" y="-871.9" font-family="Helvetica,sans-Serif" font-size="9.00">int</text>
+<polygon fill="none" stroke="#333333" points="289,-867 289,-883 388,-883 388,-867 289,-867"></polygon>
+<text text-anchor="start" x="292" y="-871.9" font-family="Helvetica,sans-Serif" font-size="9.00">resourceid</text>
+<polygon fill="none" stroke="#333333" points="253,-851 253,-867 289,-867 289,-851 253,-851"></polygon>
+<text text-anchor="start" x="256" y="-855.9" font-family="Helvetica,sans-Serif" font-size="9.00">int</text>
+<polygon fill="none" stroke="#333333" points="289,-851 289,-867 388,-867 388,-851 289,-851"></polygon>
+<text text-anchor="start" x="292" y="-855.9" font-family="Helvetica,sans-Serif" font-size="9.00">lticontextid</text>
+<polygon fill="none" stroke="#333333" points="253,-835 253,-851 289,-851 289,-835 253,-835"></polygon>
+<text text-anchor="start" x="255.99" y="-839.9" font-family="Helvetica,sans-Serif" font-size="9.00">varchar</text>
+<polygon fill="none" stroke="#333333" points="289,-835 289,-851 388,-851 388,-835 289,-835"></polygon>
+<text text-anchor="start" x="292" y="-839.9" font-family="Helvetica,sans-Serif" font-size="9.00">lineitemsservice</text>
+<polygon fill="none" stroke="#333333" points="253,-819 253,-835 289,-835 289,-819 253,-819"></polygon>
+<text text-anchor="start" x="255.99" y="-823.9" font-family="Helvetica,sans-Serif" font-size="9.00">varchar</text>
+<polygon fill="none" stroke="#333333" points="289,-819 289,-835 388,-835 388,-819 289,-819"></polygon>
+<text text-anchor="start" x="292" y="-823.9" font-family="Helvetica,sans-Serif" font-size="9.00">lineitemservice</text>
+<polygon fill="none" stroke="#333333" points="253,-803 253,-819 289,-819 289,-803 253,-803"></polygon>
+<text text-anchor="start" x="255.99" y="-807.9" font-family="Helvetica,sans-Serif" font-size="9.00">varchar</text>
+<polygon fill="none" stroke="#333333" points="289,-803 289,-819 388,-819 388,-803 289,-803"></polygon>
+<text text-anchor="start" x="292" y="-807.9" font-family="Helvetica,sans-Serif" font-size="9.00">lineitemscope</text>
+<polygon fill="none" stroke="#333333" points="253,-787 253,-803 289,-803 289,-787 253,-787"></polygon>
+<text text-anchor="start" x="255.99" y="-791.9" font-family="Helvetica,sans-Serif" font-size="9.00">varchar</text>
+<polygon fill="none" stroke="#333333" points="289,-787 289,-803 388,-803 388,-787 289,-787"></polygon>
+<text text-anchor="start" x="292" y="-791.9" font-family="Helvetica,sans-Serif" font-size="9.00">resultscope</text>
+<polygon fill="none" stroke="#333333" points="253,-771 253,-787 289,-787 289,-771 253,-771"></polygon>
+<text text-anchor="start" x="255.99" y="-775.9" font-family="Helvetica,sans-Serif" font-size="9.00">varchar</text>
+<polygon fill="none" stroke="#333333" points="289,-771 289,-787 388,-787 388,-771 289,-771"></polygon>
+<text text-anchor="start" x="292" y="-775.9" font-family="Helvetica,sans-Serif" font-size="9.00">scorescope</text>
+<polygon fill="none" stroke="#333333" points="253,-755 253,-771 289,-771 289,-755 253,-755"></polygon>
+<text text-anchor="start" x="255.99" y="-759.9" font-family="Helvetica,sans-Serif" font-size="9.00">varchar</text>
+<polygon fill="none" stroke="#333333" points="289,-755 289,-771 388,-771 388,-755 289,-755"></polygon>
+<text text-anchor="start" x="291.98" y="-759.9" font-family="Helvetica,sans-Serif" font-size="9.00">contextmembershipsurl</text>
+<polygon fill="none" stroke="#333333" points="253,-739 253,-755 289,-755 289,-739 253,-739"></polygon>
+<text text-anchor="start" x="255.99" y="-743.9" font-family="Helvetica,sans-Serif" font-size="9.00">varchar</text>
+<polygon fill="none" stroke="#333333" points="289,-739 289,-755 388,-755 388,-739 289,-739"></polygon>
+<text text-anchor="start" x="292" y="-743.9" font-family="Helvetica,sans-Serif" font-size="9.00">nrpsserviceversions</text>
+<polygon fill="none" stroke="#333333" points="253,-723 253,-739 289,-739 289,-723 253,-723"></polygon>
+<text text-anchor="start" x="256" y="-727.9" font-family="Helvetica,sans-Serif" font-size="9.00">int</text>
+<polygon fill="none" stroke="#333333" points="289,-723 289,-739 388,-739 388,-723 289,-723"></polygon>
+<text text-anchor="start" x="292" y="-727.9" font-family="Helvetica,sans-Serif" font-size="9.00">timecreated</text>
+<polygon fill="none" stroke="#333333" points="253,-707 253,-723 289,-723 289,-707 253,-707"></polygon>
+<text text-anchor="start" x="256" y="-711.9" font-family="Helvetica,sans-Serif" font-size="9.00">int</text>
+<polygon fill="none" stroke="#333333" points="289,-707 289,-723 388,-723 388,-707 289,-707"></polygon>
+<text text-anchor="start" x="292" y="-711.9" font-family="Helvetica,sans-Serif" font-size="9.00">timemodified</text>
+</g>
+<!-- enrol_ct_resource_link&#45;&gt;enrol_ct_deployment -->
+<g id="edge17" class="edge">
+<title>enrol_ct_resource_link:outltideploymentid-&gt;enrol_ct_deployment:inid</title>
+<path fill="none" stroke="black" d="M388,-891C428.89,-891 420.11,-947 461,-947 461,-947 461,-947 684,-947 729.83,-947 710.98,-875.15 745.69,-862.8"></path>
+<polygon fill="black" stroke="black" points="746.18,-866.26 755.51,-861.24 745.08,-859.35 746.18,-866.26"></polygon>
+</g>
+<!-- enrol_ct_context -->
+<g id="node18" class="node">
+<title>enrol_ct_context</title>
+<polygon fill="white" stroke="none" points="623.5,-917 521.5,-917 521.5,-805 623.5,-805 623.5,-917"></polygon>
+<polygon fill="lightblue" stroke="none" points="521.5,-901 521.5,-917 623.5,-917 623.5,-901 521.5,-901"></polygon>
+<polygon fill="none" stroke="#333333" points="521.5,-901 521.5,-917 623.5,-917 623.5,-901 521.5,-901"></polygon>
+<text text-anchor="start" x="539.48" y="-905.9" font-family="Helvetica,sans-Serif" font-size="9.00">enrol_ct_context</text>
+<polygon fill="none" stroke="#333333" points="521.5,-885 521.5,-901 557.5,-901 557.5,-885 521.5,-885"></polygon>
+<text text-anchor="start" x="524.5" y="-889.9" font-family="Helvetica,sans-Serif" font-size="9.00">int</text>
+<polygon fill="none" stroke="#333333" points="557.5,-885 557.5,-901 623.5,-901 623.5,-885 557.5,-885"></polygon>
+<text text-anchor="start" x="560.5" y="-889.9" font-family="Helvetica,sans-Serif" font-size="9.00">id</text>
+<polygon fill="none" stroke="#333333" points="521.5,-869 521.5,-885 557.5,-885 557.5,-869 521.5,-869"></polygon>
+<text text-anchor="start" x="524.49" y="-873.9" font-family="Helvetica,sans-Serif" font-size="9.00">varchar</text>
+<polygon fill="none" stroke="#333333" points="557.5,-869 557.5,-885 623.5,-885 623.5,-869 557.5,-869"></polygon>
+<text text-anchor="start" x="560.5" y="-873.9" font-family="Helvetica,sans-Serif" font-size="9.00">contextid</text>
+<polygon fill="none" stroke="#333333" points="521.5,-853 521.5,-869 557.5,-869 557.5,-853 521.5,-853"></polygon>
+<text text-anchor="start" x="524.5" y="-857.9" font-family="Helvetica,sans-Serif" font-size="9.00">int</text>
+<polygon fill="none" stroke="#333333" points="557.5,-853 557.5,-869 623.5,-869 623.5,-853 557.5,-853"></polygon>
+<text text-anchor="start" x="560.48" y="-857.9" font-family="Helvetica,sans-Serif" font-size="9.00">ltideploymentid</text>
+<polygon fill="none" stroke="#333333" points="521.5,-837 521.5,-853 557.5,-853 557.5,-837 521.5,-837"></polygon>
+<text text-anchor="start" x="524.5" y="-841.9" font-family="Helvetica,sans-Serif" font-size="9.00">text</text>
+<polygon fill="none" stroke="#333333" points="557.5,-837 557.5,-853 623.5,-853 623.5,-837 557.5,-837"></polygon>
+<text text-anchor="start" x="560.5" y="-841.9" font-family="Helvetica,sans-Serif" font-size="9.00">type</text>
+<polygon fill="none" stroke="#333333" points="521.5,-821 521.5,-837 557.5,-837 557.5,-821 521.5,-821"></polygon>
+<text text-anchor="start" x="524.5" y="-825.9" font-family="Helvetica,sans-Serif" font-size="9.00">int</text>
+<polygon fill="none" stroke="#333333" points="557.5,-821 557.5,-837 623.5,-837 623.5,-821 557.5,-821"></polygon>
+<text text-anchor="start" x="560.5" y="-825.9" font-family="Helvetica,sans-Serif" font-size="9.00">timecreated</text>
+<polygon fill="none" stroke="#333333" points="521.5,-805 521.5,-821 557.5,-821 557.5,-805 521.5,-805"></polygon>
+<text text-anchor="start" x="524.5" y="-809.9" font-family="Helvetica,sans-Serif" font-size="9.00">int</text>
+<polygon fill="none" stroke="#333333" points="557.5,-805 557.5,-821 623.5,-821 623.5,-805 557.5,-805"></polygon>
+<text text-anchor="start" x="560.5" y="-809.9" font-family="Helvetica,sans-Serif" font-size="9.00">timemodified</text>
+</g>
+<!-- enrol_ct_resource_link&#45;&gt;enrol_ct_context -->
+<g id="edge18" class="edge">
+<title>enrol_ct_resource_link:outlticontextid-&gt;enrol_ct_context:inid</title>
+<path fill="none" stroke="black" d="M388,-859C444.76,-859 458.03,-888.63 509.02,-892.57"></path>
+<polygon fill="black" stroke="black" points="508.86,-896.07 518.99,-892.94 509.13,-889.07 508.86,-896.07"></polygon>
+</g>
+<!-- enrol_ct_context&#45;&gt;enrol_ct_deployment -->
+<g id="edge19" class="edge">
+<title>enrol_ct_context:outltideploymentid-&gt;enrol_ct_deployment:inid</title>
+<path fill="none" stroke="black" d="M624.5,-861C679.36,-861 695.89,-861 745.51,-861"></path>
+<polygon fill="black" stroke="black" points="745.49,-864.5 755.49,-861 745.49,-857.5 745.49,-864.5"></polygon>
+</g>
+<!-- enrol_ct_user_res_link -->
+<g id="node19" class="node">
+<title>enrol_ct_user_res_link</title>
+<polygon fill="white" stroke="none" points="127.5,-814 31.5,-814 31.5,-750 127.5,-750 127.5,-814"></polygon>
+<polygon fill="lightblue" stroke="none" points="31.5,-798 31.5,-814 127.5,-814 127.5,-798 31.5,-798"></polygon>
+<polygon fill="none" stroke="#333333" points="31.5,-798 31.5,-814 127.5,-814 127.5,-798 31.5,-798"></polygon>
+<text text-anchor="start" x="34.23" y="-802.9" font-family="Helvetica,sans-Serif" font-size="9.00">enrol_ct_user_res_link</text>
+<polygon fill="none" stroke="#333333" points="31.5,-782 31.5,-798 56.5,-798 56.5,-782 31.5,-782"></polygon>
+<text text-anchor="start" x="34.5" y="-786.9" font-family="Helvetica,sans-Serif" font-size="9.00">int</text>
+<polygon fill="none" stroke="#333333" points="56.5,-782 56.5,-798 127.5,-798 127.5,-782 56.5,-782"></polygon>
+<text text-anchor="start" x="59.5" y="-786.9" font-family="Helvetica,sans-Serif" font-size="9.00">id</text>
+<polygon fill="none" stroke="#333333" points="31.5,-766 31.5,-782 56.5,-782 56.5,-766 31.5,-766"></polygon>
+<text text-anchor="start" x="34.5" y="-770.9" font-family="Helvetica,sans-Serif" font-size="9.00">int</text>
+<polygon fill="none" stroke="#333333" points="56.5,-766 56.5,-782 127.5,-782 127.5,-766 56.5,-766"></polygon>
+<text text-anchor="start" x="59.5" y="-770.9" font-family="Helvetica,sans-Serif" font-size="9.00">ltiuserid</text>
+<polygon fill="none" stroke="#333333" points="31.5,-750 31.5,-766 56.5,-766 56.5,-750 31.5,-750"></polygon>
+<text text-anchor="start" x="34.5" y="-754.9" font-family="Helvetica,sans-Serif" font-size="9.00">int</text>
+<polygon fill="none" stroke="#333333" points="56.5,-750 56.5,-766 127.5,-766 127.5,-750 56.5,-750"></polygon>
+<text text-anchor="start" x="59.5" y="-754.9" font-family="Helvetica,sans-Serif" font-size="9.00">resourcelinkid</text>
+</g>
+<!-- enrol_ct_user_res_link&#45;&gt;enrol_ct_users -->
+<g id="edge20" class="edge">
+<title>enrol_ct_user_res_link:outltiuserid-&gt;enrol_ct_users:inid</title>
+<path fill="none" stroke="black" d="M128.5,-774C237.22,-774 159.77,-576.11 255.04,-561.81"></path>
+<polygon fill="black" stroke="black" points="255.26,-565.31 264.99,-561.11 254.77,-558.32 255.26,-565.31"></polygon>
+</g>
+<!-- enrol_ct_user_res_link&#45;&gt;enrol_ct_resource_link -->
+<g id="edge21" class="edge">
+<title>enrol_ct_user_res_link:outresourcelinkid-&gt;enrol_ct_resource_link:inid</title>
+<path fill="none" stroke="black" d="M128.5,-758C216.42,-758 165.94,-909.12 241.97,-922.11"></path>
+<polygon fill="black" stroke="black" points="241.24,-925.56 251.49,-922.88 241.8,-918.59 241.24,-925.56"></polygon>
+</g>
+<!-- enrol_ct_courses -->
+<g id="node20" class="node">
+<title>enrol_ct_courses</title>
+<polygon fill="white" stroke="none" points="121.5,-425 37.5,-425 37.5,-361 121.5,-361 121.5,-425"></polygon>
+<polygon fill="lightblue" stroke="none" points="37.5,-409 37.5,-425 121.5,-425 121.5,-409 37.5,-409"></polygon>
+<polygon fill="none" stroke="#333333" points="37.5,-409 37.5,-425 121.5,-425 121.5,-409 37.5,-409"></polygon>
+<text text-anchor="start" x="45.23" y="-413.9" font-family="Helvetica,sans-Serif" font-size="9.00">enrol_ct_courses</text>
+<polygon fill="none" stroke="#333333" points="37.5,-393 37.5,-409 73.5,-409 73.5,-393 37.5,-393"></polygon>
+<text text-anchor="start" x="40.5" y="-397.9" font-family="Helvetica,sans-Serif" font-size="9.00">int</text>
+<polygon fill="none" stroke="#333333" points="73.5,-393 73.5,-409 121.5,-409 121.5,-393 73.5,-393"></polygon>
+<text text-anchor="start" x="76.5" y="-397.9" font-family="Helvetica,sans-Serif" font-size="9.00">id</text>
+<polygon fill="none" stroke="#333333" points="37.5,-377 37.5,-393 73.5,-393 73.5,-377 37.5,-377"></polygon>
+<text text-anchor="start" x="40.5" y="-381.9" font-family="Helvetica,sans-Serif" font-size="9.00">int</text>
+<polygon fill="none" stroke="#333333" points="73.5,-377 73.5,-393 121.5,-393 121.5,-377 73.5,-377"></polygon>
+<text text-anchor="start" x="76.5" y="-381.9" font-family="Helvetica,sans-Serif" font-size="9.00">courseid</text>
+<polygon fill="none" stroke="#333333" points="37.5,-361 37.5,-377 73.5,-377 73.5,-361 37.5,-361"></polygon>
+<text text-anchor="start" x="40.49" y="-365.9" font-family="Helvetica,sans-Serif" font-size="9.00">varchar</text>
+<polygon fill="none" stroke="#333333" points="73.5,-361 73.5,-377 121.5,-377 121.5,-361 73.5,-361"></polygon>
+<text text-anchor="start" x="76.24" y="-365.9" font-family="Helvetica,sans-Serif" font-size="9.00">shortname</text>
+</g>
+<!-- course -->
+<g id="node21" class="node">
+<title>course</title>
+<polygon fill="white" stroke="none" points="844.5,-52 790.5,-52 790.5,-16 844.5,-16 844.5,-52"></polygon>
+<polygon fill="orange" stroke="none" points="799.49,-24.6 799.49,-43.4 835.51,-43.4 835.51,-24.6 799.49,-24.6"></polygon>
+<polygon fill="none" stroke="#333333" points="799.49,-24.6 799.49,-43.4 835.51,-43.4 835.51,-24.6 799.49,-24.6"></polygon>
+<text text-anchor="start" x="803.99" y="-31.3" font-family="Helvetica,sans-Serif" font-size="9.00">course</text>
+</g>
+<!-- enrol_ct_courses&#45;&gt;course -->
+<g id="edge22" class="edge">
+<title>enrol_ct_courses:outcourseid-&gt;course</title>
+<path fill="none" stroke="black" d="M122.5,-385C191.43,-385 148.1,-141.62 179,-80 189.86,-58.35 191.78,-40 216,-40 216,-40 216,-40 684,-40 716.15,-40 752.64,-38.22 779.18,-36.59"></path>
+<polygon fill="black" stroke="black" points="779.35,-40.09 789.11,-35.96 778.91,-33.1 779.35,-40.09"></polygon>
+</g>
+</g>
+</g></svg>
